@@ -1,4 +1,4 @@
-# Flame-s-Script-Hub-V1.2
+# Flame-s-Script-Hub-V1.2 j
 ###### --Hello This Is Flames Script Hub!
 --Look In Settings For The Command
 
