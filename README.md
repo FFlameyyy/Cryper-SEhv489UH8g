@@ -1,8 +1,9 @@
 Ghz86hgh67hg778h7G76dfr666f6Ghg67 = false
+Print("Enter A Key To Use The Script. If You Entered One, Make Sure Its Vaild.
 if Ghz86hgh67hg778h7G76dfr666f6Ghg67 == true then
 print("Key Ghz86hgh67hg778h7G76dfr666f6Ghg67 Accepted!")
 wait(1)
-print("Flame Script Hub V1.4
+print("Flame Script Hub V1.4")
 while true do
 wait()
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
