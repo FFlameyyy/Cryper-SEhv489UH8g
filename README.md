@@ -864,4 +864,12 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == k then
+local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local p2 = j
+local pos = p1.CFrame
+p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+wait(5)
+p1.CFrame = pos
 
