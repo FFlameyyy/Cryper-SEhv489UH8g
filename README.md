@@ -1,3 +1,8 @@
+Gh432jGHGh4238jjgsu7377GD68 = false
+
+zzz = true
+
+if Gh432jGHGh4238jjgsu7377GD68 == true then
 print("Flame Script Hub Loaded!")
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
@@ -863,13 +868,5 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == i then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
+end
 end)
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-    if msg == k then
-local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
-local p2 = j
-local pos = p1.CFrame
-p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
-wait(5)
-p1.CFrame = pos
-
