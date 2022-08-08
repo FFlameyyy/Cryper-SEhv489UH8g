@@ -1,4 +1,10 @@
-print("Flame Script Hub Loaded!")
+Ghz86hgh67hg778h7G76dfr666f6Ghg67 = false
+if Ghz86hgh67hg778h7G76dfr666f6Ghg67 == true then
+print("Key Ghz86hgh67hg778h7G76dfr666f6Ghg67 Accepted!")
+wait(1)
+print("Flame Script Hub V1.4
+while true do
+wait()
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
@@ -592,7 +598,89 @@ Tab:AddTextbox(
 Tab:AddLabel("Premium unlocks extra features!")
  
 OrionLib:Init()
-end
+end                     Name = "Soggyware | Key System",
+
+                    Content = "Copied Link To Clipboard " .. game.Players.LocalPlayer.Name,
+
+                    Image = "rbxassetid://7072717958",
+
+                    Time = 4
+
+                }
+
+            )
+
+        end
+
+    }
+
+)
+
+ 
+
+Tab:AddTextbox(
+
+    {
+
+        Name = "Key",
+
+        Default = "",
+
+        TextDisappear = true,
+
+        Callback = function(x)
+
+            if x == "8442e63b-974e-a691-a97b-80dca2e67210" then
+
+                OrionLib:MakeNotification(
+
+                    {
+
+                        Name = "Premium | Key System",
+
+                        Content = "Correct Key, assigning premium now " .. game.Players.LocalPlayer.Name,
+
+                        Image = "rbxassetid://7072717958",
+
+                        Time = 4
+
+                    }
+
+                )
+
+                Premium = true
+
+            elseif x ~= "8442e63b-974e-a691-a97b-80dca2e67210" or x == "" then
+
+                OrionLib:MakeNotification(
+
+                    {
+
+                        Name = "Premium | Key System",
+
+                        Content = "Wrong Key " .. game.Players.LocalPlayer.Name,
+
+                        Image = "rbxassetid://7072717958",
+
+                        Time = 4
+
+                    }
+
+                )
+
+            end
+
+        end
+
+    }
+
+)
+
+ 
+
+Tab:AddLabel("Premium unlocks extra features!")
+
+ 
 end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == g then
@@ -864,3 +952,4 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
+end
