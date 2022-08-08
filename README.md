@@ -1,7 +1,7 @@
-Ghz86hgh67hg778h7G76dfr666f6Ghg67 = false
-print("Enter A Key To Use The Script. If You Entered One, Make Sure Its Vaild.")
-if Ghz86hgh67hg778h7G76dfr666f6Ghg67 == true then
-print("Key Ghz86hgh67hg778h7G76dfr666f6Ghg67 Accepted!")
+print("Type Your Key Into The Chat To Use Script.")
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Ghz86hgh67hg778h7G76dfr666f6Ghg67" then
+print("Key Accepted!")
 wait(1)
 print("Flame Script Hub V1.4")
 while true do
@@ -315,3 +315,4 @@ end
 end)
 end
 end
+end)
