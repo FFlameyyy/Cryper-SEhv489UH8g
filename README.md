@@ -1,8 +1,3 @@
-Gh432jGHGh4238jjgsu7377GD68 = false
-
-zzz = true
-
-if Gh432jGHGh4238jjgsu7377GD68 == true then
 print("Flame Script Hub Loaded!")
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
@@ -869,4 +864,3 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
-end
