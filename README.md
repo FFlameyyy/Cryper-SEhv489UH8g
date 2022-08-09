@@ -1,4 +1,5 @@
-if zzz == "V1.4GYt67yG7g7yYnjhFCfcxazeDCgt7668i7jNJHF8" then
+print("Enter A Key And Press Execute")
+if Key == "V1.4GYt67yG7g7yYnjhFCfcxazeDCgt7668i7jNJHF8" then
 print("Key Is Being Processed...")
 wait(3)
 print("Key Accepted!")
