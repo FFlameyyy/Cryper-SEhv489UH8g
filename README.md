@@ -1,12 +1,10 @@
-if z == Hi then
-Print("Key Accepted!")
+if zzz == "V1.4GYt67yG7g7yYnjhFCfcxazeDCgt7668i7jNJHF8" then
+print("Key Is Being Processed...")
 wait(3)
-print("Flame Script Hub V1.4")
-while true do
-wait()
+print("Key Accepted!")
+print("Type A Command To Load A Script!")
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
-wait(5)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end
 end)
@@ -312,5 +310,4 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
-end
 end
