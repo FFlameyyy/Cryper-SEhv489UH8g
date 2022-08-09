@@ -1,8 +1,6 @@
 if z == Hi then
-print("Hi")
-end
-
-
+Print("Key Accepted!")
+wait(3)
 print("Flame Script Hub V1.4")
 while true do
 wait()
@@ -314,4 +312,5 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
+end
 end
