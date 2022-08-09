@@ -1,12 +1,3 @@
-bruh = true
-if bruh == false then
-    print("hi")
-end
-print("Type Your Key Into The Chat To Use Script.")
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-    if msg == "Ghz86hgh67hg778h7G76dfr666f6Ghg67" then
-print("Key Accepted!")
-wait(1)
 print("Flame Script Hub V1.4")
 while true do
 wait()
@@ -319,5 +310,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascript
 end
 end)
 end
-end
-end)
