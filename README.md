@@ -1,4 +1,7 @@
 bruh = true
+if bruh == false then
+    print("hi")
+end
 print("Type Your Key Into The Chat To Use Script.")
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == "Ghz86hgh67hg778h7G76dfr666f6Ghg67" then
