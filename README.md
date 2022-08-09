@@ -1,3 +1,8 @@
+if z == Hi then
+print("Hi")
+end
+
+
 print("Flame Script Hub V1.4")
 while true do
 wait()
