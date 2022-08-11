@@ -1,11 +1,11 @@
 print("🔥Flame-Script-Hub🔥 Checking Key... Make Sure Your Using A Vaild Key.")
 wait()
-if Key == "Fl@m3ScR1PTh0b-Hi09rmc88NUs77a-728vsb57ghduJ8" then
+if Key == "🔥🔥🔥Fl@m3Sc1rptHu8K3y🔥🔥🔥-uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.5")
 wait()
-if Version == "V1.5" then
+if Version == "V1.6" then
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
