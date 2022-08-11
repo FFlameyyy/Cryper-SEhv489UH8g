@@ -1,16 +1,34 @@
 print("🔥Flame-Script-Hub🔥 Checking Key... Make Sure Your Using A Vaild Key.")
-wait(5)
+wait()
 if Key == "Fl@m3ScR1PTh0b-Hi09rmc88NUs77a-728vsb57ghduJ8" then
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
-wait(1)
+wait()
 print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.5")
-wait(5)
+wait()
 if Version == "V1.5" then
 print("🔥Flame-Script-Hub🔥 Version Matched!")
-wait(1)
+wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
 
 
+
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == tpsg then
+tps = true
+repeat
+    wait()
+local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local pos = p1.CFrame
+p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+until tps == false
+end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == tpss then
+tps = true
+end
+end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
