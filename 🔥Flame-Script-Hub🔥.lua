@@ -30,7 +30,6 @@ tps = false
 end
 end)
 
-
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
