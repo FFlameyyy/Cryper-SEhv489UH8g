@@ -26,7 +26,7 @@ end
 end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == tpss then
-tps = true
+tps = false
 end
 end)
 
