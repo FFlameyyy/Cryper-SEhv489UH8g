@@ -1,16 +1,18 @@
-print("🔥Flame-Script-Hub🔥 Checking Key... Make Sure Your Using A Vaild Key.")
+print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
-if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then
+if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
+end elseif 
+print("🔥Flame-Script-Hub🔥 Key Is Not Vaild")
+then end
+if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then do
 wait()
-print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.7")
+print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
-if Version == "V1.7" then
+if Version == "V1.7" then do
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
-
-
 
 
 
@@ -363,6 +365,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascript
 end
 end)
 
-
+end elseif
+print("🔥Flame-Script-Hub🔥 Version Is Not The Latest Version")
+then end
 end
 end
