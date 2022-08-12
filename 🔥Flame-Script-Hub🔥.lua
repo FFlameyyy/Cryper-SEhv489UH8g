@@ -5,7 +5,7 @@ print("🔥Flame-Script-Hub🔥 Key Accepted!")
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.5")
 wait()
-if Version == "V1.6" then
+if Version == "V1.7" then
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
