@@ -13,6 +13,17 @@ print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
 
 
 
+
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == tptp then
+local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local pos = p1.CFrame
+p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+end
+end)
+
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == tpsg then
 tps = true
