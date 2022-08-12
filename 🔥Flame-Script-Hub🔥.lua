@@ -3,7 +3,7 @@ wait()
 if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 wait()
-print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.5")
+print("🔥Flame-Script-Hub🔥 Checking Version... Make Sure You Have Version V1.7")
 wait()
 if Version == "V1.7" then
 print("🔥Flame-Script-Hub🔥 Version Matched!")
