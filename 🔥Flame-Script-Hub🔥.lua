@@ -5,7 +5,7 @@ print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild")
 then end
-if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then do
+if Key == "kdw7G6g7-huyg766N-3877mds" then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
