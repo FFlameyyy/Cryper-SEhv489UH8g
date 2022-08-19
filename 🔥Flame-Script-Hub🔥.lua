@@ -30,7 +30,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == tpsg then
 tps = true
 repeat
-    wait()
+    wait(waitb)
 local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
 local pos = p1.CFrame
 p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
