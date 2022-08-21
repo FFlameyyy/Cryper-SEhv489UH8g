@@ -14,7 +14,12 @@ print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
 
-
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == j then
+print("🔥Flame-Script-Hub🔥 Bed Wars Script Executed.")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",true))()
+end
+end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
