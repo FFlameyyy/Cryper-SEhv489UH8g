@@ -9,7 +9,7 @@ if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
-if Version == "V1.9" then do
+if ScriptID == "F3mesr1p1h0bs560t20" then do
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
