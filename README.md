@@ -1,7 +1,7 @@
 🔥Works On [Synapse X](https://x.synapse.to/?adlt=strict&toWww=1&redig=D2C19EA1823A410AA8EF7AB7CF653812) And Maybe More.
 
 
-# 🔥Tip🔥
+### 🔥Tip🔥
 
 
 🔥Press F9 To Veiw The Output Of The Script. Its Helpful For Knowing If The Key Or Your Script Version Are Not Matched. It  Also Helps With Trouble Shooting Problems When It Notices You Have A Issue.
