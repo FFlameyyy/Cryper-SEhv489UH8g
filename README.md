@@ -1,4 +1,4 @@
-🔥Works On Synapse X And Mabey More.
+🔥Works On [Synapse X](https://x.synapse.to/?adlt=strict&toWww=1&redig=D2C19EA1823A410AA8EF7AB7CF653812) And Mabey More.
 
 
 🔥Tip🔥
