@@ -19,5 +19,5 @@
 
 🔥Best Executor🔥
 
-🔥Download Synapse X For $20 USD [Here]((https://x.synapse.to/?adlt=strict&toWww=1&redig=D2C19EA1823A410AA8EF7AB7CF653812)
+🔥Download Synapse X For $20 USD [Here.](https://x.synapse.to/?adlt=strict&toWww=1&redig=D2C19EA1823A410AA8EF7AB7CF653812)
 
