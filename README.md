@@ -1,3 +1,6 @@
+# 🔥Flame's Script Hub🔥
+
+
 🔥Works On [Synapse X](https://x.synapse.to/?adlt=strict&toWww=1&redig=D2C19EA1823A410AA8EF7AB7CF653812) And Maybe More.
 
 
@@ -12,7 +15,7 @@
 ### 🔥Downloads🔥
 
 
-🔥You Can Download The .txt File Of The Script #### [Here.](https://cdn.discordapp.com/attachments/998376310600638474/1011743050512482394/message.txt)
+🔥You Can Download The .txt File Of The Script[Here.](https://cdn.discordapp.com/attachments/998376310600638474/1011743050512482394/message.txt)
 
 🔥You Can Download The .txt File Of The Key [Here.](https://cdn.discordapp.com/attachments/998376310600638474/1010390737734598797/message.txt)
 
