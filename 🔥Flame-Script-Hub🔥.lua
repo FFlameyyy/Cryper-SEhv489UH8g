@@ -1,6 +1,7 @@
 print("🔥Flame-Script-Hub🔥 Error Code 000")
 wait(1)
 print("🔥Flame-Script-Hub🔥 Script Is Down. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To See If We Are Working On It.")
+🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
