@@ -1,7 +1,8 @@
 --Key
 KASBPS = false
-if Key == "uJu58hGH76hf8h786HGH8H7yjfhhy7" then do
+KASBPS = "uJu58hGH76hf8h786HGH8H7yjfhhy7" then do
 KASBPS = true
+print("KASBPS = true")
 end
 end
 
@@ -9,6 +10,7 @@ end
 SIDCS = false
 if ScriptID == "F3mesr1p1h0bs560t21" then do
 SIDCS = true
+print("SIDCS = true")
 end
 end
 
