@@ -27,7 +27,7 @@ if KASBPS == true then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
 print("🔥Flame-Script-Hub🔥 Error Code: 400.") then
-Wait(3)
+Wait()
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
 end
 if KASBPS == true then do
@@ -42,12 +42,14 @@ print("-------------------------------------------------------------------------
 print("🔥Flame-Script-Hub🔥 Hello Thanks For Using The Script! We Are Gathering Data...")
 print("---------------------------------------------------------------------------------")
 wait()
+repeat
 print("🔥Key")
 print(Key)
+print("-----")
 print("🔥Script ID")
 print(ScriptID)
 print("---------------------------------------------------------------------------------")
-wait(3)
+wait()
 print("🔥Commands")
 print(p2)
 print("🔥Target")
@@ -93,7 +95,17 @@ print("🔥Jail Break")
 print("-----")
 print(j)
 print("🔥Bed Wars")
+print("-----")
+print("Say '/e /Okay' To Stop")
 print("---------------------------------------------------------------------------------")
+wait()
+until SCSS == false
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg "/e /Okay" then
+SCSS = false
+end
+end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
