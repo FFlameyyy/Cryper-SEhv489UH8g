@@ -1,7 +1,7 @@
 
 #🔥Script Is Down🔥
 ### The Script Is Down Due To Chnages In The Next Update And Also Bug Fixing.
-### The Version Is Expected To Come Out On The 8/25/2022.
+### Version V2.1 Is Expected To Come Out On The 8/25/2022.
 ### Thanks For Accepting This.
 
 
