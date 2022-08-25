@@ -57,9 +57,9 @@ ________________________________________________________________________________
 
 ## 🔥Trouble Shooting🔥
 
-First Make Sure You Press F9, Then Excute The Script. If A Message Starting With "🔥Flame's Script Hub🔥" Shows Up Then, The Issue Is Either Your Key Or Your Script Version Is Not Matched. Redownload The Script And Get A Key.
+First Make Sure You Press F9, Then Excute The Script. If This Message "🔥Flame's Script Hub🔥 Checking Key..." Shows Up Then, The Issue Is Either Your Key Or Your Script Version Is Not Matched. Redownload The Script And Get A Key.
 
-If Nothing Shows Up In The Dev Consel, Then Make Sure There Are No ❌ Or 🔴 On The Left. If There Are Make Sure You Did Not Delete Any -- Or "" Or The Loader Where It Says Dont Change Any Thing Past This Line. If You Can't Seem To Fix It, Then Redownload The Script.
+If Nothing Shows Up In The Dev Consel, Then Make Sure There Are No ❌ Or 🔴 On The Left Side Of Your Executor. If There Are Make Sure You Did Not Delete Any -- Or "" Or The Loader Where It Says Dont Change Any Thing Past This Line. If You Can't Seem To Fix It, Then Redownload The Script.
 
 ## 🔥Error Codes🔥
 
