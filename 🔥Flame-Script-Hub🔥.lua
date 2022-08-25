@@ -1,11 +1,8 @@
-000 = false
-repeat
 print("🔥Flame-Script-Hub🔥 Error Code 000")
+wait(1)
 print("🔥Flame-Script-Hub🔥 Script Is Down. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To See If We Are Working On It.")
 wait()
-until 000 == true
-wait()
-print("Hello Thanks For Using The Script! We Are Gathering Data...")
+print("🔥Flame-Script-Hub🔥 Hello Thanks For Using The Script! We Are Gathering Data...")
 wait()
 print("Key")
 print(Key)
@@ -48,10 +45,10 @@ wait()
 if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
-print("🔥Flame-Script-Hub🔥 Error Code: 400.")
+print("🔥Flame-Script-Hub🔥 Error Code: 400.") then
 Wait(3)
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
-then end
+end
 if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
@@ -429,12 +426,11 @@ end
 end)
 
 end elseif
-print("🔥Flame-Script-Hub🔥 Error Code: 401.")
+print("🔥Flame-Script-Hub🔥 Error Code: 401.") then
 Wait(3)
-print("🔥Flame-Script-Hub🔥 Version Is Not Matched. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get The Script.
-then end
+print("🔥Flame-Script-Hub🔥 Version Is Not Matched. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get The Script.")
 end
 end
-000 = true
+end
 print("Error Code 000 Fixed")
 print("Error Code 202 Fixed")
