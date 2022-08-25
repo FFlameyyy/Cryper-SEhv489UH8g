@@ -42,7 +42,6 @@ print("-------------------------------------------------------------------------
 print("🔥Flame-Script-Hub🔥 Hello Thanks For Using The Script! We Are Gathering Data...")
 print("---------------------------------------------------------------------------------")
 wait()
-repeat
 print("🔥Key")
 print(Key)
 print("-----")
@@ -95,17 +94,7 @@ print("🔥Jail Break")
 print("-----")
 print(j)
 print("🔥Bed Wars")
-print("-----")
-print("Say '/e /Okay' To Stop")
 print("---------------------------------------------------------------------------------")
-wait()
-until SCSS == false
-
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-    if msg "/e /Okay" then
-SCSS = false
-end
-end)
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
