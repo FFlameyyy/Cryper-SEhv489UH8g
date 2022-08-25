@@ -1,8 +1,12 @@
+print("Hello Thanks For Using The Script! We Are Gathering Data...")
+wait()
 print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
 if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
+print("🔥Flame-Script-Hub🔥 Error Code: 400.")
+Wait(3)
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
 then end
 if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
@@ -382,7 +386,9 @@ end
 end)
 
 end elseif
-print("🔥Flame-Script-Hub🔥 Version Is Not The Latest Version. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get The Latest Script.")
+print("🔥Flame-Script-Hub🔥 Error Code: 401.")
+Wait(3)
+print("🔥Flame-Script-Hub🔥 Version Is Not Matched. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
 then end
 end
 end
