@@ -53,5 +53,9 @@ If Nothing Shows Up In The Dev Consel, Then Make Sure There Are No ❌ Or 🔴 O
 ## 🔥Error Codes🔥
 
 Error Code 202 Means The Script Did Not Load.
+
+Error Code 000 Means The Script Is Down.
+
 Error Code 400 Means The Key Is Not Correct.
+
 Error Code 401 Means The Script Version Is Not Matched.
