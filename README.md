@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 ## 🔥Info🔥
 
- Works On And Maybe More.
+ Works On Synapse X And Maybe More.
 
 The Current Version Of The Script On The Website Is V2.0
 
