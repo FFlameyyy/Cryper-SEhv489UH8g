@@ -1,5 +1,48 @@
+000 = false
+repeat
+print("🔥Flame-Script-Hub🔥 Error Code 000")
+print("🔥Flame-Script-Hub🔥 Script Is Down. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To See If We Are Working On It.")
+wait()
+until 000 == true
+wait()
 print("Hello Thanks For Using The Script! We Are Gathering Data...")
 wait()
+print("Key")
+print(Key)
+print("Script ID")
+print(ScriptID)
+wait(3)
+print("Commands")
+print(p2)
+print("Target")
+print(tpsg)
+print("Spam Tp")
+print(tpss)
+print("Stop Spam Tp")
+print(waitb)
+print("WaitFor Each Tp")
+print(tptp)
+print("Teleport To Target")
+print(a)
+print("Da Hood")
+print(b)
+print("Sword Factory")
+print(c)
+print("MM2, Tower Of Hell, And Many Other Games")
+print(d)
+print("Booga Booga Script Combo")
+print(e)
+print("Arsenal")
+print(f)
+print("Anti-AFK")
+print(g)
+print("Makes Your Head Big (Wear A Rthro Head)")
+print(h)
+print("Kaiju Pardise")
+print(i)
+print("Jail Break")
+print(j)
+print("Bed Wars")
 print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
 if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
@@ -13,7 +56,7 @@ if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
-if ScriptID == "F3mesr1p1h0bs560t20" then do
+if ScriptID == "F3mesr1p1h0bs560t21" then do
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
@@ -388,7 +431,10 @@ end)
 end elseif
 print("🔥Flame-Script-Hub🔥 Error Code: 401.")
 Wait(3)
-print("🔥Flame-Script-Hub🔥 Version Is Not Matched. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
+print("🔥Flame-Script-Hub🔥 Version Is Not Matched. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get The Script.
 then end
 end
 end
+000 = true
+print("Error Code 000 Fixed")
+print("Error Code 202 Fixed")
