@@ -1,22 +1,38 @@
+--Key
+KASBPS = false
+if Key == "uJu58hGH76hf8h786HGH8H7yjfhhy7" then do
+KASBPS = true
+end
+end
+
+--Version Checker
+SIDCS = false
+if ScriptID == "F3mesr1p1h0bs560t21" then do
+SIDCS = true
+end
+end
+
+
+
+
 print("🔥Flame-Script-Hub🔥 Error Code 000")
 wait(1)
 print("🔥Flame-Script-Hub🔥 Script Is Down. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To See If We Are Working On It.")
-🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Key...")
 wait()
-if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
+if KASBPS == true then do
 print("🔥Flame-Script-Hub🔥 Key Accepted!")
 end elseif 
 print("🔥Flame-Script-Hub🔥 Error Code: 400.") then
 Wait(3)
 print("🔥Flame-Script-Hub🔥 Key Is Not Vaild. Go To https://fflameyyy.github.io/Flame-s-Script-Hub/ To Get A Key. If There Is  Not On Avlible Then You Are Not Able To Use This Script.")
 end
-if Key == "uJu58hGH76hf8h786HGHH7yjfhhy78" then do
+if KASBPS == true then do
 wait()
 print("🔥Flame-Script-Hub🔥 Checking Version...")
 wait()
-if ScriptID == "F3mesr1p1h0bs560t21" then do
+if SIDCS == true then do
 print("🔥Flame-Script-Hub🔥 Version Matched!")
 wait()
 print("🔥Flame-Script-Hub🔥 Type A Command To Load A Script!")
@@ -77,12 +93,15 @@ print(j)
 print("🔥Bed Wars")
 print("---------------------------------------------------------------------------------")
 
+if KASBPS == true then do
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     if msg == j then
 print("🔥Flame-Script-Hub🔥 Bed Wars Script Executed.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",true))()
 end
 end)
+end
+end
 
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
