@@ -1,4 +1,4 @@
-# Roblox 🔥Flame's Script Hub🔥   🔥V2.0🔥
+# Roblox 🔥Flame's Script Hub🔥   🔥V2.1🔥
 
 
 
@@ -25,26 +25,11 @@ ________________________________________________________________________________
 
 
 
-## 🔥Downloads🔥
+## 🔥Script🔥
 
-You Can Download The .txt File Of The Script [Here.](https://cdn.discordapp.com/attachments/998376310600638474/1012491692303188049/message.txt)
+You Can Copy The Script Here
 
-The Key Also Changes Every Now And Then, So Keep An Eye Out For Vaild Keys If Yours Is Not Vaild. The Key Will Also Sometimes Not Be On This Website. You Can Download The .txt File Of The Key [Here.](https://cdn.discordapp.com/attachments/998376310600638474/1010390737734598797/message.txt)
-
-
-
-
-
-_______________________________________________________________________________________________________________________________________________________________________
-
-
-
-
-
-## 🔥Helpful Tips🔥
-
-Press F9 To Veiw The Output Of The Script. Its Helpful For Knowing If The Key Or Your Script Version Are Not Matched. It  Also Helps With Trouble Shooting Problems When It Notices You Have A Issue.
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FFlameyyy/Flame-s-Script-Hub/main/%F0%9F%94%A5Flame-Script-Hub%F0%9F%94%A5.lua"))()
 
 
 
@@ -55,11 +40,8 @@ ________________________________________________________________________________
 
 
 
-## 🔥Trouble Shooting🔥
 
-First Make Sure You Press F9, Then Excute The Script. If This Message "🔥Flame's Script Hub🔥 Checking Key..." Shows Up Then, The Issue Is Either Your Key Or Your Script Version Is Not Matched. Redownload The Script And Get A Key.
 
-If Nothing Shows Up In The Dev Consel, Then Make Sure There Are No ❌ Or 🔴 On The Left Side Of Your Executor. If There Are Make Sure You Did Not Delete Any -- Or "" Or The Loader Where It Says Dont Change Any Thing Past This Line. If You Can't Seem To Fix It, Then Redownload The Script.
 
 ## 🔥Error Codes🔥
 
