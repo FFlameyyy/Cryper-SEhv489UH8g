@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 You Can Copy The Script Here
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FFlameyyy/Flame-s-Script-Hub/main/%F0%9F%94%A5Flame-Script-Hub%F0%9F%94%A5.lua"))()
+' loadstring(game:HttpGet("https://raw.githubusercontent.com/FFlameyyy/Flame-s-Script-Hub/main/%F0%9F%94%A5Flame-Script-Hub%F0%9F%94%A5.lua"))() '
 
 
 
