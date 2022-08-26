@@ -27,9 +27,7 @@ ________________________________________________________________________________
 
 ## 🔥Script🔥
 
-You Can Copy The Script Here
-
-' loadstring(game:HttpGet("https://raw.githubusercontent.com/FFlameyyy/Flame-s-Script-Hub/main/%F0%9F%94%A5Flame-Script-Hub%F0%9F%94%A5.lua"))() '
+You Can Get The Script [Here.](https://cdn.discordapp.com/attachments/998376310600638474/1012843760998154260/message.txt)
 
 
 
