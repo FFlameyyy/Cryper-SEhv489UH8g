@@ -55,10 +55,9 @@ Main2.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Main2.BorderSizePixel = 5
 Main2.Position = UDim2.new(-0.00166773051, 0, 0.103527412, 0)
 Main2.Size = UDim2.new(1, 0, 0.896472573, 0)
-Main2.CanvasPosition = Vector2.new(0, 193.128845)
 Main2.CanvasSize = UDim2.new(0, 0, 1.5, 0)
 Main2.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
-Main2.ScrollBarThickness = 10
+Main2.ScrollBarThickness = 0
 
 Heading1.Name = "Heading 1"
 Heading1.Parent = Main2
@@ -68,7 +67,7 @@ Heading1.BorderSizePixel = 0
 Heading1.Position = UDim2.new(0.147803828, 0, 0.0558347255, 0)
 Heading1.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
 Heading1.Font = Enum.Font.PermanentMarker
-Heading1.Text = "🔥Scripts🔥"
+Heading1.Text = " "
 Heading1.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading1.TextScaled = true
 Heading1.TextSize = 14.000
@@ -85,7 +84,7 @@ Heading2.BorderSizePixel = 0
 Heading2.Position = UDim2.new(0.147803828, 0, 0.490398377, 0)
 Heading2.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
 Heading2.Font = Enum.Font.PermanentMarker
-Heading2.Text = "🔥Player🔥"
+Heading2.Text = " "
 Heading2.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading2.TextScaled = true
 Heading2.TextSize = 14.000
@@ -102,7 +101,7 @@ Heading3.BorderSizePixel = 0
 Heading3.Position = UDim2.new(0.147803828, 0, 0.688384891, 0)
 Heading3.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
 Heading3.Font = Enum.Font.PermanentMarker
-Heading3.Text = "🔥Tools🔥"
+Heading3.Text = " "
 Heading3.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading3.TextScaled = true
 Heading3.TextSize = 14.000
@@ -279,10 +278,10 @@ UICorner_14.Parent = AutoLoadScript
 Title.Name = "Title"
 Title.Parent = Main1
 Title.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-Title.BorderColor3 = Color3.fromRGB(3, 5, 7)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(-0.00116280536, 0, -8.60226937e-05, 0)
-Title.Size = UDim2.new(1.00116289, 0, 0.103613496, 0)
+Title.BorderColor3 = Color3.fromRGB(207, 69, 0)
+Title.BorderSizePixel = 5
+Title.Position = UDim2.new(-0.00166768557, 0, -8.60214132e-05, 0)
+Title.Size = UDim2.new(1.00166774, 0, 0.103613496, 0)
 Title.Font = Enum.Font.PermanentMarker
 Title.Text = "🔥Flame Script Hub 2.1🔥"
 Title.TextColor3 = Color3.fromRGB(255, 158, 1)
@@ -292,7 +291,7 @@ Title.TextWrapped = true
 
 -- Scripts:
 
-local function EKBE_fake_script() -- Main1.LocalScript 
+local function IWTXQXS_fake_script() -- Main1.LocalScript 
 	local script = Instance.new('LocalScript', Main1)
 
 	local UIS = game:GetService("UserInputService")
@@ -335,11 +334,79 @@ local function EKBE_fake_script() -- Main1.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EKBE_fake_script)()
-local function UNIYGKA_fake_script() -- BigHead.LocalScript 
+coroutine.wrap(IWTXQXS_fake_script)()
+local function OCOVQSC_fake_script() -- Heading1.LocalScript 
+	local script = Instance.new('LocalScript', Heading1)
+
+	script.Parent.Visible = false
+	wait(3.6)
+	script.Parent.Visible = true
+	script.Parent.Text = "🔥🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥S🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Sc🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Scr🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Scri🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Scrip🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Script🔥"
+	wait(0.2)
+	
+end
+coroutine.wrap(OCOVQSC_fake_script)()
+local function WUICD_fake_script() -- Heading2.LocalScript 
+	local script = Instance.new('LocalScript', Heading2)
+
+	script.Parent.Visible = false
+	wait(3.6)
+	script.Parent.Visible = true
+	script.Parent.Text = "🔥🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥T🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥To🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Too🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Tool🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Tools🔥"
+	
+end
+coroutine.wrap(WUICD_fake_script)()
+local function SQIGWE_fake_script() -- Heading3.LocalScript 
+	local script = Instance.new('LocalScript', Heading3)
+
+	script.Parent.Visible = false
+	wait(3.6)
+	script.Parent.Visible = true
+	script.Parent.Text = "🔥🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥P🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Pl🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Pla🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Play🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Playe🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Player🔥"
+	wait(0.2)
+	
+end
+coroutine.wrap(SQIGWE_fake_script)()
+local function MBBN_fake_script() -- BigHead.LocalScript 
 	local script = Instance.new('LocalScript', BigHead)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
@@ -602,11 +669,13 @@ local function UNIYGKA_fake_script() -- BigHead.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(UNIYGKA_fake_script)()
-local function PJMOG_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(MBBN_fake_script)()
+local function LUEYRWU_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",true))()
@@ -614,11 +683,13 @@ local function PJMOG_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(PJMOG_fake_script)()
-local function QGMXQ_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(LUEYRWU_fake_script)()
+local function LJYB_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
@@ -626,11 +697,13 @@ local function QGMXQ_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(QGMXQ_fake_script)()
-local function LPBQIS_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(LJYB_fake_script)()
+local function GEJBKEW_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
@@ -638,11 +711,13 @@ local function LPBQIS_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LPBQIS_fake_script)()
-local function NSAYWGS_fake_script() -- AntiAfk.LocalScript 
+coroutine.wrap(GEJBKEW_fake_script)()
+local function FVEK_fake_script() -- AntiAfk.LocalScript 
 	local script = Instance.new('LocalScript', AntiAfk)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
@@ -650,11 +725,13 @@ local function NSAYWGS_fake_script() -- AntiAfk.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(NSAYWGS_fake_script)()
-local function AJRCH_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(FVEK_fake_script)()
+local function AGZWHEF_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
@@ -662,11 +739,13 @@ local function AJRCH_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(AJRCH_fake_script)()
-local function LERIBYG_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(AGZWHEF_fake_script)()
+local function CESF_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua"))()
@@ -674,11 +753,13 @@ local function LERIBYG_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LERIBYG_fake_script)()
-local function ASROKWG_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(CESF_fake_script)()
+local function WSEOI_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 		getgenv().mainKey = "nil"
@@ -687,11 +768,13 @@ local function ASROKWG_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ASROKWG_fake_script)()
-local function RQVCYLK_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(WSEOI_fake_script)()
+local function VVTORFV_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
@@ -699,11 +782,13 @@ local function RQVCYLK_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(RQVCYLK_fake_script)()
-local function TGQL_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(VVTORFV_fake_script)()
+local function HAXCCQ_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
-	
+	script.Parent.Visible = false
+	wait(5)
+	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
@@ -711,10 +796,13 @@ local function TGQL_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(TGQL_fake_script)()
-local function MUKUK_fake_script() -- AutoLoadScript.LocalScript 
+coroutine.wrap(HAXCCQ_fake_script)()
+local function TGUQZZT_fake_script() -- AutoLoadScript.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoadScript)
 
+	script.Parent.Visible = false
+	wait(4.6)
+	script.Parent.Visible = true
 	script.Parent.MouseButton1Click:connect(onclick)
 	function onclick()
 	print("🔥Executed🔥")
@@ -738,4 +826,46 @@ local function MUKUK_fake_script() -- AutoLoadScript.LocalScript
 	end
 	end
 end
-coroutine.wrap(MUKUK_fake_script)()
+coroutine.wrap(TGUQZZT_fake_script)()
+local function SKAI_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	script.Parent.Text = "🔥🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥F🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Fl🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Fla🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flam🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame'🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's 🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's S🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Sc🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Scr🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Scri🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Scrip🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Script🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Script 🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Script H🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Script Hu🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Flame's Script Hub🔥"
+	wait(0.2)
+	
+end
+coroutine.wrap(SKAI_fake_script)()
