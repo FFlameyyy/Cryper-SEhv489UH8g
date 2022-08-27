@@ -31,6 +31,16 @@ local DaHood = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local AutoLoadScript = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local Heading4 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local Target = Instance.new("TextBox")
+local UICorner_16 = Instance.new("UICorner")
+local TeleportToTarget = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
 
 --Properties:
@@ -45,29 +55,29 @@ Main1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main1.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Main1.BorderSizePixel = 5
 Main1.Position = UDim2.new(0.276772261, 0, 0.23777017, 0)
-Main1.Size = UDim2.new(0.345111698, 100, 0.307167262, 50)
+Main1.Size = UDim2.new(0.345111698, 100, 0.325369775, 50)
 
 Main2.Name = "Main2"
 Main2.Parent = Main1
 Main2.Active = true
 Main2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 Main2.BorderColor3 = Color3.fromRGB(207, 69, 0)
-Main2.BorderSizePixel = 5
-Main2.Position = UDim2.new(-0.00166773051, 0, 0.103527412, 0)
-Main2.Size = UDim2.new(1, 0, 0.896472573, 0)
-Main2.CanvasSize = UDim2.new(0, 0, 1.5, 0)
+Main2.BorderSizePixel = 0
+Main2.Position = UDim2.new(-0.00166768557, 0, 0.103527419, 0)
+Main2.Size = UDim2.new(1.00166774, 0, 0.896472573, 0)
+Main2.CanvasSize = UDim2.new(0, 0, 3, 500)
 Main2.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
-Main2.ScrollBarThickness = 0
+Main2.ScrollBarThickness = 10
 
 Heading1.Name = "Heading 1"
 Heading1.Parent = Main2
 Heading1.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
 Heading1.BorderColor3 = Color3.fromRGB(3, 5, 7)
 Heading1.BorderSizePixel = 0
-Heading1.Position = UDim2.new(0.147803828, 0, 0.0558347255, 0)
-Heading1.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
+Heading1.Position = UDim2.new(0.147803888, 0, 0.0210819393, 0)
+Heading1.Size = UDim2.new(0.70099467, 0, 0.0222605709, 0)
 Heading1.Font = Enum.Font.PermanentMarker
-Heading1.Text = " "
+Heading1.Text = "🔥Scripts🔥"
 Heading1.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading1.TextScaled = true
 Heading1.TextSize = 14.000
@@ -81,10 +91,10 @@ Heading2.Parent = Main2
 Heading2.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
 Heading2.BorderColor3 = Color3.fromRGB(3, 5, 7)
 Heading2.BorderSizePixel = 0
-Heading2.Position = UDim2.new(0.147803828, 0, 0.490398377, 0)
-Heading2.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
+Heading2.Position = UDim2.new(0.146016464, 0, 0.438818276, 0)
+Heading2.Size = UDim2.new(0.700999975, 0, 0.0219999999, 0)
 Heading2.Font = Enum.Font.PermanentMarker
-Heading2.Text = " "
+Heading2.Text = "🔥Tools🔥"
 Heading2.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading2.TextScaled = true
 Heading2.TextSize = 14.000
@@ -98,10 +108,10 @@ Heading3.Parent = Main2
 Heading3.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
 Heading3.BorderColor3 = Color3.fromRGB(3, 5, 7)
 Heading3.BorderSizePixel = 0
-Heading3.Position = UDim2.new(0.147803828, 0, 0.688384891, 0)
-Heading3.Size = UDim2.new(0.70099467, 0, 0.0531294607, 0)
+Heading3.Position = UDim2.new(0.147806808, 0, 0.276656002, 0)
+Heading3.Size = UDim2.new(0.700999975, 0, 0.0219999999, 0)
 Heading3.Font = Enum.Font.PermanentMarker
-Heading3.Text = " "
+Heading3.Text = "🔥Player🔥"
 Heading3.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading3.TextScaled = true
 Heading3.TextSize = 14.000
@@ -113,8 +123,8 @@ UICorner_3.Parent = Heading3
 BigHead.Name = "Big Head"
 BigHead.Parent = Main2
 BigHead.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-BigHead.Position = UDim2.new(0.0377573371, 0, 0.564827919, 0)
-BigHead.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+BigHead.Position = UDim2.new(0.0341766253, 0, 0.314338684, 0)
+BigHead.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 BigHead.Font = Enum.Font.PermanentMarker
 BigHead.Text = "Big Rthro Head"
 BigHead.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -128,8 +138,8 @@ UICorner_4.Parent = BigHead
 BedWars.Name = "Bed Wars"
 BedWars.Parent = Main2
 BedWars.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-BedWars.Position = UDim2.new(0.0377573371, 0, 0.366841406, 0)
-BedWars.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+BedWars.Position = UDim2.new(0.283036172, 0, 0.15412125, 0)
+BedWars.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 BedWars.Font = Enum.Font.PermanentMarker
 BedWars.Text = "Bed Wars"
 BedWars.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -143,8 +153,8 @@ UICorner_5.Parent = BedWars
 JailBreakAutoRob.Name = "Jail Break Auto Rob"
 JailBreakAutoRob.Parent = Main2
 JailBreakAutoRob.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-JailBreakAutoRob.Position = UDim2.new(0.7478953, 0, 0.249391764, 0)
-JailBreakAutoRob.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+JailBreakAutoRob.Position = UDim2.new(0.0335431583, 0, 0.153669089, 0)
+JailBreakAutoRob.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 JailBreakAutoRob.Font = Enum.Font.PermanentMarker
 JailBreakAutoRob.Text = "Jail Break Auto Rob"
 JailBreakAutoRob.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -158,8 +168,8 @@ UICorner_6.Parent = JailBreakAutoRob
 KaijuParadise.Name = "Kaiju Paradise"
 KaijuParadise.Parent = Main2
 KaijuParadise.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-KaijuParadise.Position = UDim2.new(0.510050058, 0, 0.249391764, 0)
-KaijuParadise.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+KaijuParadise.Position = UDim2.new(0.665811062, 0, 0.104717456, 0)
+KaijuParadise.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 KaijuParadise.Font = Enum.Font.PermanentMarker
 KaijuParadise.Text = "Kaiju Paradise"
 KaijuParadise.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -173,8 +183,8 @@ UICorner_7.Parent = KaijuParadise
 AntiAfk.Name = "Anti-Afk"
 AntiAfk.Parent = Main2
 AntiAfk.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-AntiAfk.Position = UDim2.new(0.272204846, 0, 0.249391764, 0)
-AntiAfk.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+AntiAfk.Position = UDim2.new(0.408271909, 0, 0.104717456, 0)
+AntiAfk.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 AntiAfk.Font = Enum.Font.PermanentMarker
 AntiAfk.Text = "Anti-Afk"
 AntiAfk.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -188,8 +198,8 @@ UICorner_8.Parent = AntiAfk
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = Main2
 Arsenal.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-Arsenal.Position = UDim2.new(0.0377573967, 0, 0.249391764, 0)
-Arsenal.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+Arsenal.Position = UDim2.new(0.146969125, 0, 0.104717456, 0)
+Arsenal.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 Arsenal.Font = Enum.Font.PermanentMarker
 Arsenal.Text = "Arsenal"
 Arsenal.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -203,8 +213,8 @@ UICorner_9.Parent = Arsenal
 BoogaBooga.Name = "Booga Booga"
 BoogaBooga.Parent = Main2
 BoogaBooga.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-BoogaBooga.Position = UDim2.new(0.74789536, 0, 0.128586426, 0)
-BoogaBooga.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+BoogaBooga.Position = UDim2.new(0.764008522, 0, 0.0557181016, 0)
+BoogaBooga.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 BoogaBooga.Font = Enum.Font.PermanentMarker
 BoogaBooga.Text = "Booga Booga"
 BoogaBooga.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -218,8 +228,8 @@ UICorner_10.Parent = BoogaBooga
 EclipseHub.Name = "Eclipse Hub"
 EclipseHub.Parent = Main2
 EclipseHub.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-EclipseHub.Position = UDim2.new(0.510050118, 0, 0.128586426, 0)
-EclipseHub.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+EclipseHub.Position = UDim2.new(0.527953684, 0, 0.0553826243, 0)
+EclipseHub.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 EclipseHub.Font = Enum.Font.PermanentMarker
 EclipseHub.Text = "Eclipse Hub"
 EclipseHub.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -233,8 +243,8 @@ UICorner_11.Parent = EclipseHub
 DaHoodCrasher.Name = "Da Hood Crasher"
 DaHoodCrasher.Parent = Main2
 DaHoodCrasher.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-DaHoodCrasher.Position = UDim2.new(0.272598833, 0, 0.130121589, 0)
-DaHoodCrasher.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+DaHoodCrasher.Position = UDim2.new(0.283340991, 0, 0.0558973774, 0)
+DaHoodCrasher.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 DaHoodCrasher.Font = Enum.Font.PermanentMarker
 DaHoodCrasher.Text = "Da Hood Crasher"
 DaHoodCrasher.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -248,8 +258,8 @@ UICorner_12.Parent = DaHoodCrasher
 DaHood.Name = "Da Hood"
 DaHood.Parent = Main2
 DaHood.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-DaHood.Position = UDim2.new(0.0385453328, 0, 0.133247524, 0)
-DaHood.Size = UDim2.new(0.208613753, 0, 0.0919411257, 0)
+DaHood.Position = UDim2.new(0.0349646099, 0, 0.0559856743, 0)
+DaHood.Size = UDim2.new(0.181758419, 0, 0.0363624506, 0)
 DaHood.Font = Enum.Font.PermanentMarker
 DaHood.Text = "Da Hood"
 DaHood.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -263,8 +273,8 @@ UICorner_13.Parent = DaHood
 AutoLoadScript.Name = "Auto Load Script"
 AutoLoadScript.Parent = Main2
 AutoLoadScript.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-AutoLoadScript.Position = UDim2.new(0.0377573371, 0, 0.766170144, 0)
-AutoLoadScript.Size = UDim2.new(0.209000006, 0, 0.0920000002, 0)
+AutoLoadScript.Position = UDim2.new(0.0323862694, 0, 0.475423694, 0)
+AutoLoadScript.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
 AutoLoadScript.Font = Enum.Font.PermanentMarker
 AutoLoadScript.Text = "Auto Load Script"
 AutoLoadScript.TextColor3 = Color3.fromRGB(49, 49, 49)
@@ -275,13 +285,95 @@ AutoLoadScript.TextWrapped = true
 UICorner_14.CornerRadius = UDim.new(0, 9)
 UICorner_14.Parent = AutoLoadScript
 
+Heading4.Name = "Heading 4"
+Heading4.Parent = Main2
+Heading4.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+Heading4.BorderColor3 = Color3.fromRGB(3, 5, 7)
+Heading4.BorderSizePixel = 0
+Heading4.Position = UDim2.new(0.147806823, 0, 0.529229224, 0)
+Heading4.Size = UDim2.new(0.700999975, 0, 0.0219999999, 0)
+Heading4.Font = Enum.Font.PermanentMarker
+Heading4.Text = "🔥Target🔥"
+Heading4.TextColor3 = Color3.fromRGB(255, 158, 1)
+Heading4.TextScaled = true
+Heading4.TextSize = 14.000
+Heading4.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 9)
+UICorner_15.Parent = Heading4
+
+Target.Name = "Target"
+Target.Parent = Main2
+Target.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+Target.Position = UDim2.new(0.281550646, 0, 0.568199217, 0)
+Target.Size = UDim2.new(0, 226, 0, 50)
+Target.ClearTextOnFocus = false
+Target.Font = Enum.Font.PermanentMarker
+Target.PlaceholderColor3 = Color3.fromRGB(54, 54, 54)
+Target.PlaceholderText = "Target..."
+Target.Text = ""
+Target.TextColor3 = Color3.fromRGB(49, 49, 49)
+Target.TextScaled = true
+Target.TextSize = 14.000
+Target.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 9)
+UICorner_16.Parent = Target
+
+TeleportToTarget.Name = "Teleport To Target"
+TeleportToTarget.Parent = Target
+TeleportToTarget.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+TeleportToTarget.Position = UDim2.new(-0.608525038, 0, 1.5109545, 0)
+TeleportToTarget.Size = UDim2.new(0.446956336, 0, 1.07176697, 0)
+TeleportToTarget.Font = Enum.Font.PermanentMarker
+TeleportToTarget.Text = "Teleport To Target"
+TeleportToTarget.TextColor3 = Color3.fromRGB(49, 49, 49)
+TeleportToTarget.TextScaled = true
+TeleportToTarget.TextSize = 30.000
+TeleportToTarget.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 9)
+UICorner_17.Parent = TeleportToTarget
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main2
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+InfiniteYield.Position = UDim2.new(0.526524663, 0, 0.15412125, 0)
+InfiniteYield.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
+InfiniteYield.Font = Enum.Font.PermanentMarker
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(49, 49, 49)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 30.000
+InfiniteYield.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 9)
+UICorner_18.Parent = InfiniteYield
+
+Info.Name = "Info"
+Info.Parent = Main2
+Info.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+Info.BorderColor3 = Color3.fromRGB(3, 5, 7)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.231950641, 0, 0.475403249, 0)
+Info.Size = UDim2.new(0.502265096, 0, 0.0378339812, 0)
+Info.Font = Enum.Font.PermanentMarker
+Info.Text = "Only Loads Some Scripts"
+Info.TextColor3 = Color3.fromRGB(49, 49, 49)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 9)
+UICorner_19.Parent = Info
+
 Title.Name = "Title"
 Title.Parent = Main1
 Title.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
 Title.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Title.BorderSizePixel = 5
-Title.Position = UDim2.new(-0.00166768557, 0, -8.60214132e-05, 0)
-Title.Size = UDim2.new(1.00166774, 0, 0.103613496, 0)
+Title.Position = UDim2.new(0, 0, -8.60123328e-05, 0)
+Title.Size = UDim2.new(1, 0, 0.103613488, 0)
 Title.Font = Enum.Font.PermanentMarker
 Title.Text = "🔥Flame Script Hub 2.1🔥"
 Title.TextColor3 = Color3.fromRGB(255, 158, 1)
@@ -291,9 +383,12 @@ Title.TextWrapped = true
 
 -- Scripts:
 
-local function WHRZV_fake_script() -- Main1.LocalScript 
+local function GQVNPG_fake_script() -- Main1.LocalScript 
 	local script = Instance.new('LocalScript', Main1)
 
+	script.Parent.BackgroundTransparency = 1
+	wait(3.6)
+	script.Parent.BackgroundTransparency = 0
 	local UIS = game:GetService("UserInputService")
 	
 	local draggableFrame = script.Parent
@@ -334,8 +429,8 @@ local function WHRZV_fake_script() -- Main1.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WHRZV_fake_script)()
-local function DPOFSFC_fake_script() -- Heading1.LocalScript 
+coroutine.wrap(GQVNPG_fake_script)()
+local function LMGFIP_fake_script() -- Heading1.LocalScript 
 	local script = Instance.new('LocalScript', Heading1)
 
 	script.Parent.Visible = false
@@ -355,10 +450,11 @@ local function DPOFSFC_fake_script() -- Heading1.LocalScript
 	wait(0.2)
 	script.Parent.Text = "🔥Script🔥"
 	wait(0.2)
+	script.Parent.Text = "🔥Scripts🔥"
 	
 end
-coroutine.wrap(DPOFSFC_fake_script)()
-local function HGCLW_fake_script() -- Heading2.LocalScript 
+coroutine.wrap(LMGFIP_fake_script)()
+local function JGYR_fake_script() -- Heading2.LocalScript 
 	local script = Instance.new('LocalScript', Heading2)
 
 	script.Parent.Visible = false
@@ -377,8 +473,8 @@ local function HGCLW_fake_script() -- Heading2.LocalScript
 	script.Parent.Text = "🔥Tools🔥"
 	
 end
-coroutine.wrap(HGCLW_fake_script)()
-local function NESQ_fake_script() -- Heading3.LocalScript 
+coroutine.wrap(JGYR_fake_script)()
+local function HTVLKA_fake_script() -- Heading3.LocalScript 
 	local script = Instance.new('LocalScript', Heading3)
 
 	script.Parent.Visible = false
@@ -400,12 +496,12 @@ local function NESQ_fake_script() -- Heading3.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(NESQ_fake_script)()
-local function BHYTBCC_fake_script() -- BigHead.LocalScript 
+coroutine.wrap(HTVLKA_fake_script)()
+local function UPVQCOP_fake_script() -- BigHead.LocalScript 
 	local script = Instance.new('LocalScript', BigHead)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -669,12 +765,12 @@ local function BHYTBCC_fake_script() -- BigHead.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BHYTBCC_fake_script)()
-local function GFDMX_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(UPVQCOP_fake_script)()
+local function GUSH_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -683,12 +779,12 @@ local function GFDMX_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GFDMX_fake_script)()
-local function VMJZR_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(GUSH_fake_script)()
+local function SEBIP_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -697,12 +793,12 @@ local function VMJZR_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(VMJZR_fake_script)()
-local function WLAJWQ_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(SEBIP_fake_script)()
+local function ZFMWNL_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -711,12 +807,12 @@ local function WLAJWQ_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(WLAJWQ_fake_script)()
-local function MFFSYBG_fake_script() -- AntiAfk.LocalScript 
+coroutine.wrap(ZFMWNL_fake_script)()
+local function GEXOXX_fake_script() -- AntiAfk.LocalScript 
 	local script = Instance.new('LocalScript', AntiAfk)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -725,12 +821,12 @@ local function MFFSYBG_fake_script() -- AntiAfk.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(MFFSYBG_fake_script)()
-local function FKVXGMG_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(GEXOXX_fake_script)()
+local function GQRA_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -739,12 +835,12 @@ local function FKVXGMG_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(FKVXGMG_fake_script)()
-local function IRJLH_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(GQRA_fake_script)()
+local function TLNWH_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -753,12 +849,12 @@ local function IRJLH_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(IRJLH_fake_script)()
-local function YEHJC_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(TLNWH_fake_script)()
+local function QPIGPQ_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -768,12 +864,12 @@ local function YEHJC_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(YEHJC_fake_script)()
-local function SQKT_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(QPIGPQ_fake_script)()
+local function DWJC_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -782,12 +878,12 @@ local function SQKT_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(SQKT_fake_script)()
-local function BCVM_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(DWJC_fake_script)()
+local function IDWDG_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	script.Parent.Visible = false
-	wait(5)
+	wait(5.2)
 	script.Parent.Visible = true
 	function onclick()
 	print("🔥Executed🔥")
@@ -796,8 +892,8 @@ local function BCVM_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BCVM_fake_script)()
-local function PUBUPAX_fake_script() -- AutoLoadScript.LocalScript 
+coroutine.wrap(IDWDG_fake_script)()
+local function LJKGH_fake_script() -- AutoLoadScript.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoadScript)
 
 	script.Parent.Visible = false
@@ -859,8 +955,98 @@ local function PUBUPAX_fake_script() -- AutoLoadScript.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(PUBUPAX_fake_script)()
-local function LBPK_fake_script() -- Title.LocalScript 
+coroutine.wrap(LJKGH_fake_script)()
+local function NNLF_fake_script() -- Heading4.LocalScript 
+	local script = Instance.new('LocalScript', Heading4)
+
+	script.Parent.Visible = false
+	wait(3.6)
+	script.Parent.Visible = true
+	script.Parent.Text = "🔥🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥T🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Ta🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Tar🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Targ🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Targe🔥"
+	wait(0.2)
+	script.Parent.Text = "🔥Target🔥"
+	
+	
+end
+coroutine.wrap(NNLF_fake_script)()
+local function YQFJGLL_fake_script() -- TeleportToTarget.LocalScript 
+	local script = Instance.new('LocalScript', TeleportToTarget)
+
+	script.Parent.Visible = false
+	wait(4.8)
+	script.Parent.Visible = true
+	wait(1)
+	player = script.Parent.Parent.Parent.Target.Text
+	button = script.Parent
+	local debounce = false
+	
+	function helpme()
+	 if not debounce then
+	  
+	 debounce = true
+	 local Torso = player.Character.Torso
+	 Torso.CFrame = game.Workspace.TP.CFrame
+	 
+	 end
+	end
+	button.MouseButton1Click:connect(helpme)
+	
+	while true do wait()
+	debounce = false
+	end
+end
+coroutine.wrap(YQFJGLL_fake_script)()
+local function DCLRJK_fake_script() -- Target.LocalScript 
+	local script = Instance.new('LocalScript', Target)
+
+	script.Parent.Visible = false
+	wait(4.8)
+	script.Parent.Visible = true
+	
+end
+coroutine.wrap(DCLRJK_fake_script)()
+local function QVWILKX_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	script.Parent.Visible = false
+	wait(5.2)
+	script.Parent.Visible = true
+	function onclick()
+	print("🔥Executed🔥")
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(QVWILKX_fake_script)()
+local function BAMK_fake_script() -- Info.LocalScript 
+	local script = Instance.new('LocalScript', Info)
+
+	script.Parent.Visible = false
+	wait(4.6)
+	script.Parent.Visible = true
+end
+coroutine.wrap(BAMK_fake_script)()
+local function SHUDZ_fake_script() -- Main2.LocalScript 
+	local script = Instance.new('LocalScript', Main2)
+
+	script.Parent.Visible = false
+	wait(3.6)
+	script.Parent.Visible = true
+	
+end
+coroutine.wrap(SHUDZ_fake_script)()
+local function OFDN_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	script.Parent.Text = "🔥🔥"
@@ -901,4 +1087,4 @@ local function LBPK_fake_script() -- Title.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(LBPK_fake_script)()
+coroutine.wrap(OFDN_fake_script)()
