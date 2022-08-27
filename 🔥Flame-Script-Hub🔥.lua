@@ -1,7 +1,7 @@
 -- Instances:
 
 local Main0 = Instance.new("ScreenGui")
-local Main1 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
 local Main2 = Instance.new("ScrollingFrame")
 local Heading1 = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
@@ -42,6 +42,8 @@ local UICorner_18 = Instance.new("UICorner")
 local Info = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
+local Loading = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
@@ -49,18 +51,19 @@ Main0.Name = "Main0"
 Main0.Parent = game.CoreGui
 Main0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Main1.Name = "Main1"
-Main1.Parent = Main0
-Main1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main1.BorderColor3 = Color3.fromRGB(207, 69, 0)
-Main1.BorderSizePixel = 5
-Main1.Position = UDim2.new(0.276772261, 0, 0.23777017, 0)
-Main1.Size = UDim2.new(0.345111698, 100, 0.325369775, 50)
+ImageLabel.Parent = Main0
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(207, 69, 0)
+ImageLabel.BorderSizePixel = 5
+ImageLabel.Position = UDim2.new(0.368778288, 0, 0.29237771, 0)
+ImageLabel.Size = UDim2.new(0.328054309, 0, 0.327645063, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7671411115"
 
 Main2.Name = "Main2"
-Main2.Parent = Main1
+Main2.Parent = ImageLabel
 Main2.Active = true
 Main2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Main2.BackgroundTransparency = 1.000
 Main2.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Main2.BorderSizePixel = 0
 Main2.Position = UDim2.new(-0.00166768557, 0, 0.103527419, 0)
@@ -368,69 +371,50 @@ UICorner_19.CornerRadius = UDim.new(0, 9)
 UICorner_19.Parent = Info
 
 Title.Name = "Title"
-Title.Parent = Main1
+Title.Parent = ImageLabel
 Title.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
 Title.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Title.BorderSizePixel = 5
 Title.Position = UDim2.new(0, 0, -8.60123328e-05, 0)
 Title.Size = UDim2.new(1, 0, 0.103613488, 0)
 Title.Font = Enum.Font.PermanentMarker
-Title.Text = "🔥Flame Script Hub 2.1🔥"
+Title.Text = "🔥Flame Script Hub 🔥"
 Title.TextColor3 = Color3.fromRGB(255, 158, 1)
 Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
 
+Loading.Name = "Loading"
+Loading.Parent = ImageLabel
+Loading.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+Loading.BackgroundTransparency = 1.000
+Loading.BorderColor3 = Color3.fromRGB(207, 69, 0)
+Loading.BorderSizePixel = 5
+Loading.Position = UDim2.new(0, 0, 0.467175901, 0)
+Loading.Size = UDim2.new(1, 0, 0.103613488, 0)
+Loading.Visible = false
+Loading.Font = Enum.Font.Code
+Loading.Text = "Loading..."
+Loading.TextColor3 = Color3.fromRGB(67, 67, 67)
+Loading.TextScaled = true
+Loading.TextSize = 14.000
+Loading.TextWrapped = true
+
+TextLabel.Parent = Main0
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.923076928, 0, 0.967007935, 0)
+TextLabel.Size = UDim2.new(0.0769230798, 0, 0.0329920352, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "🔥V1.2🔥"
+TextLabel.TextColor3 = Color3.fromRGB(66, 66, 66)
+TextLabel.TextSize = 20.000
+TextLabel.TextTransparency = 0.600
+TextLabel.TextWrapped = true
+
 -- Scripts:
 
-local function GQVNPG_fake_script() -- Main1.LocalScript 
-	local script = Instance.new('LocalScript', Main1)
-
-	script.Parent.BackgroundTransparency = 1
-	wait(3.6)
-	script.Parent.BackgroundTransparency = 0
-	local UIS = game:GetService("UserInputService")
-	
-	local draggableFrame = script.Parent
-	
-	local IsDragging = false 
-	local dragInput				
-	local StartingPoint
-	local oldPos				
-	
-	local function update(input)
-		local delta = input.Position - StartingPoint
-		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
-	end
-	
-	draggableFrame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			IsDragging = true
-			StartingPoint = input.Position
-			oldPos = draggableFrame.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					IsDragging = false
-				end
-			end)
-		end
-	end)
-	
-	draggableFrame.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement then
-			dragInput = input
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input == dragInput and IsDragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(GQVNPG_fake_script)()
-local function LMGFIP_fake_script() -- Heading1.LocalScript 
+local function PIAEYZ_fake_script() -- Heading1.LocalScript 
 	local script = Instance.new('LocalScript', Heading1)
 
 	script.Parent.Visible = false
@@ -453,8 +437,8 @@ local function LMGFIP_fake_script() -- Heading1.LocalScript
 	script.Parent.Text = "🔥Scripts🔥"
 	
 end
-coroutine.wrap(LMGFIP_fake_script)()
-local function JGYR_fake_script() -- Heading2.LocalScript 
+coroutine.wrap(PIAEYZ_fake_script)()
+local function WNZO_fake_script() -- Heading2.LocalScript 
 	local script = Instance.new('LocalScript', Heading2)
 
 	script.Parent.Visible = false
@@ -473,8 +457,8 @@ local function JGYR_fake_script() -- Heading2.LocalScript
 	script.Parent.Text = "🔥Tools🔥"
 	
 end
-coroutine.wrap(JGYR_fake_script)()
-local function HTVLKA_fake_script() -- Heading3.LocalScript 
+coroutine.wrap(WNZO_fake_script)()
+local function MWSLTG_fake_script() -- Heading3.LocalScript 
 	local script = Instance.new('LocalScript', Heading3)
 
 	script.Parent.Visible = false
@@ -496,8 +480,8 @@ local function HTVLKA_fake_script() -- Heading3.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(HTVLKA_fake_script)()
-local function UPVQCOP_fake_script() -- BigHead.LocalScript 
+coroutine.wrap(MWSLTG_fake_script)()
+local function JOFW_fake_script() -- BigHead.LocalScript 
 	local script = Instance.new('LocalScript', BigHead)
 
 	script.Parent.Visible = false
@@ -765,8 +749,8 @@ local function UPVQCOP_fake_script() -- BigHead.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(UPVQCOP_fake_script)()
-local function GUSH_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(JOFW_fake_script)()
+local function SPEA_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	script.Parent.Visible = false
@@ -779,8 +763,8 @@ local function GUSH_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GUSH_fake_script)()
-local function SEBIP_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(SPEA_fake_script)()
+local function BGXMU_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	script.Parent.Visible = false
@@ -793,8 +777,8 @@ local function SEBIP_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(SEBIP_fake_script)()
-local function ZFMWNL_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(BGXMU_fake_script)()
+local function OCTH_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	script.Parent.Visible = false
@@ -807,8 +791,8 @@ local function ZFMWNL_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ZFMWNL_fake_script)()
-local function GEXOXX_fake_script() -- AntiAfk.LocalScript 
+coroutine.wrap(OCTH_fake_script)()
+local function RCGBL_fake_script() -- AntiAfk.LocalScript 
 	local script = Instance.new('LocalScript', AntiAfk)
 
 	script.Parent.Visible = false
@@ -821,8 +805,8 @@ local function GEXOXX_fake_script() -- AntiAfk.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GEXOXX_fake_script)()
-local function GQRA_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(RCGBL_fake_script)()
+local function FEHWVX_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.Visible = false
@@ -835,8 +819,8 @@ local function GQRA_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GQRA_fake_script)()
-local function TLNWH_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(FEHWVX_fake_script)()
+local function LWIMW_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	script.Parent.Visible = false
@@ -849,8 +833,8 @@ local function TLNWH_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(TLNWH_fake_script)()
-local function QPIGPQ_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(LWIMW_fake_script)()
+local function RCRFNHN_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	script.Parent.Visible = false
@@ -864,8 +848,8 @@ local function QPIGPQ_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(QPIGPQ_fake_script)()
-local function DWJC_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(RCRFNHN_fake_script)()
+local function BRZUWCI_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	script.Parent.Visible = false
@@ -878,8 +862,8 @@ local function DWJC_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(DWJC_fake_script)()
-local function IDWDG_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(BRZUWCI_fake_script)()
+local function TYXHF_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	script.Parent.Visible = false
@@ -892,8 +876,8 @@ local function IDWDG_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(IDWDG_fake_script)()
-local function LJKGH_fake_script() -- AutoLoadScript.LocalScript 
+coroutine.wrap(TYXHF_fake_script)()
+local function YDYQ_fake_script() -- AutoLoadScript.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoadScript)
 
 	script.Parent.Visible = false
@@ -955,8 +939,8 @@ local function LJKGH_fake_script() -- AutoLoadScript.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LJKGH_fake_script)()
-local function NNLF_fake_script() -- Heading4.LocalScript 
+coroutine.wrap(YDYQ_fake_script)()
+local function JYVNCZ_fake_script() -- Heading4.LocalScript 
 	local script = Instance.new('LocalScript', Heading4)
 
 	script.Parent.Visible = false
@@ -978,8 +962,8 @@ local function NNLF_fake_script() -- Heading4.LocalScript
 	
 	
 end
-coroutine.wrap(NNLF_fake_script)()
-local function YQFJGLL_fake_script() -- TeleportToTarget.LocalScript 
+coroutine.wrap(JYVNCZ_fake_script)()
+local function MLENSXK_fake_script() -- TeleportToTarget.LocalScript 
 	local script = Instance.new('LocalScript', TeleportToTarget)
 
 	script.Parent.Visible = false
@@ -1005,8 +989,8 @@ local function YQFJGLL_fake_script() -- TeleportToTarget.LocalScript
 	debounce = false
 	end
 end
-coroutine.wrap(YQFJGLL_fake_script)()
-local function DCLRJK_fake_script() -- Target.LocalScript 
+coroutine.wrap(MLENSXK_fake_script)()
+local function XYWE_fake_script() -- Target.LocalScript 
 	local script = Instance.new('LocalScript', Target)
 
 	script.Parent.Visible = false
@@ -1014,8 +998,8 @@ local function DCLRJK_fake_script() -- Target.LocalScript
 	script.Parent.Visible = true
 	
 end
-coroutine.wrap(DCLRJK_fake_script)()
-local function QVWILKX_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(XYWE_fake_script)()
+local function CBIIEXB_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.Visible = false
@@ -1028,25 +1012,16 @@ local function QVWILKX_fake_script() -- InfiniteYield.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(QVWILKX_fake_script)()
-local function BAMK_fake_script() -- Info.LocalScript 
+coroutine.wrap(CBIIEXB_fake_script)()
+local function YABPJ_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Visible = false
 	wait(4.6)
 	script.Parent.Visible = true
 end
-coroutine.wrap(BAMK_fake_script)()
-local function SHUDZ_fake_script() -- Main2.LocalScript 
-	local script = Instance.new('LocalScript', Main2)
-
-	script.Parent.Visible = false
-	wait(3.6)
-	script.Parent.Visible = true
-	
-end
-coroutine.wrap(SHUDZ_fake_script)()
-local function OFDN_fake_script() -- Title.LocalScript 
+coroutine.wrap(YABPJ_fake_script)()
+local function ZBNVNP_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	script.Parent.Text = "🔥🔥"
@@ -1087,4 +1062,90 @@ local function OFDN_fake_script() -- Title.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(OFDN_fake_script)()
+coroutine.wrap(ZBNVNP_fake_script)()
+local function KTBL_fake_script() -- Loading.LocalScript 
+	local script = Instance.new('LocalScript', Loading)
+
+	script.Parent.Visible = true
+	script.Parent.Text = "Loading"
+	wait(0.2)
+	script.Parent.Text = "Loading."
+	wait(0.2)
+	script.Parent.Text = "Loading.."
+	wait(0.2)
+	script.Parent.Text = "Loading..."
+	wait(0.2)
+	script.Parent.Text = "Loading"
+	wait(0.2)
+	script.Parent.Text = "Loading."
+	wait(0.2)
+	script.Parent.Text = "Loading.."
+	wait(0.2)
+	script.Parent.Text = "Loading..."
+	wait(0.2)
+	script.Parent.Text = "Loading"
+	wait(0.2)
+	script.Parent.Text = "Loading."
+	wait(0.2)
+	script.Parent.Text = "Loading.."
+	wait(0.2)
+	script.Parent.Text = "Loading..."
+	wait(0.2)
+	script.Parent.Text = "Loading"
+	wait(0.2)
+	script.Parent.Text = "Loading."
+	wait(0.2)
+	script.Parent.Text = "Loading.."
+	wait(0.2)
+	script.Parent.Text = "Loading..."
+	script.Parent.Visible = false
+	
+	
+	
+end
+coroutine.wrap(KTBL_fake_script)()
+local function BQZONRI_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local UIS = game:GetService("UserInputService")
+	
+	local draggableFrame = script.Parent
+	
+	local IsDragging = false 
+	local dragInput				
+	local StartingPoint
+	local oldPos				
+	
+	local function update(input)
+		local delta = input.Position - StartingPoint
+		draggableFrame.Position = UDim2.new(oldPos.X.Scale, oldPos.X.Offset + delta.X, oldPos.Y.Scale, oldPos.Y.Offset + delta.Y)
+	end
+	
+	draggableFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			IsDragging = true
+			StartingPoint = input.Position
+			oldPos = draggableFrame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					IsDragging = false
+				end
+			end)
+		end
+	end)
+	
+	draggableFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and IsDragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(BQZONRI_fake_script)()
+
