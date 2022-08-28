@@ -33,14 +33,12 @@ local AutoLoadScript = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local Heading4 = Instance.new("TextLabel")
 local UICorner_15 = Instance.new("UICorner")
-local Target = Instance.new("TextBox")
-local UICorner_16 = Instance.new("UICorner")
-local TeleportToTarget = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
 local InfiniteYield = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Info = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local UnlockAllGunsPF = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
 local Loading = Instance.new("TextLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -68,6 +66,7 @@ Main2.BorderColor3 = Color3.fromRGB(207, 69, 0)
 Main2.BorderSizePixel = 0
 Main2.Position = UDim2.new(-0.00166768557, 0, 0.103527419, 0)
 Main2.Size = UDim2.new(1.00166774, 0, 0.896472573, 0)
+Main2.CanvasPosition = Vector2.new(0, 655.815918)
 Main2.CanvasSize = UDim2.new(0, 0, 3, 500)
 Main2.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
 Main2.ScrollBarThickness = 10
@@ -296,7 +295,7 @@ Heading4.BorderSizePixel = 0
 Heading4.Position = UDim2.new(0.147806823, 0, 0.529229224, 0)
 Heading4.Size = UDim2.new(0.700999975, 0, 0.0219999999, 0)
 Heading4.Font = Enum.Font.PermanentMarker
-Heading4.Text = "🔥Target🔥"
+Heading4.Text = "Phantom Forces"
 Heading4.TextColor3 = Color3.fromRGB(255, 158, 1)
 Heading4.TextScaled = true
 Heading4.TextSize = 14.000
@@ -304,39 +303,6 @@ Heading4.TextWrapped = true
 
 UICorner_15.CornerRadius = UDim.new(0, 9)
 UICorner_15.Parent = Heading4
-
-Target.Name = "Target"
-Target.Parent = Main2
-Target.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-Target.Position = UDim2.new(0.281550646, 0, 0.568199217, 0)
-Target.Size = UDim2.new(0, 226, 0, 50)
-Target.ClearTextOnFocus = false
-Target.Font = Enum.Font.PermanentMarker
-Target.PlaceholderColor3 = Color3.fromRGB(54, 54, 54)
-Target.PlaceholderText = "Target..."
-Target.Text = ""
-Target.TextColor3 = Color3.fromRGB(49, 49, 49)
-Target.TextScaled = true
-Target.TextSize = 14.000
-Target.TextWrapped = true
-
-UICorner_16.CornerRadius = UDim.new(0, 9)
-UICorner_16.Parent = Target
-
-TeleportToTarget.Name = "Teleport To Target"
-TeleportToTarget.Parent = Target
-TeleportToTarget.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
-TeleportToTarget.Position = UDim2.new(-0.608525038, 0, 1.5109545, 0)
-TeleportToTarget.Size = UDim2.new(0.446956336, 0, 1.07176697, 0)
-TeleportToTarget.Font = Enum.Font.PermanentMarker
-TeleportToTarget.Text = "Teleport To Target"
-TeleportToTarget.TextColor3 = Color3.fromRGB(49, 49, 49)
-TeleportToTarget.TextScaled = true
-TeleportToTarget.TextSize = 30.000
-TeleportToTarget.TextWrapped = true
-
-UICorner_17.CornerRadius = UDim.new(0, 9)
-UICorner_17.Parent = TeleportToTarget
 
 InfiniteYield.Name = "Infinite Yield"
 InfiniteYield.Parent = Main2
@@ -350,8 +316,8 @@ InfiniteYield.TextScaled = true
 InfiniteYield.TextSize = 30.000
 InfiniteYield.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 9)
-UICorner_18.Parent = InfiniteYield
+UICorner_16.CornerRadius = UDim.new(0, 9)
+UICorner_16.Parent = InfiniteYield
 
 Info.Name = "Info"
 Info.Parent = Main2
@@ -367,8 +333,23 @@ Info.TextScaled = true
 Info.TextSize = 14.000
 Info.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 9)
-UICorner_19.Parent = Info
+UICorner_17.CornerRadius = UDim.new(0, 9)
+UICorner_17.Parent = Info
+
+UnlockAllGunsPF.Name = "Unlock All Guns PF"
+UnlockAllGunsPF.Parent = Main2
+UnlockAllGunsPF.BackgroundColor3 = Color3.fromRGB(207, 69, 0)
+UnlockAllGunsPF.Position = UDim2.new(0.0323862694, 0, 0.566332817, 0)
+UnlockAllGunsPF.Size = UDim2.new(0.181999996, 0, 0.0379999988, 0)
+UnlockAllGunsPF.Font = Enum.Font.PermanentMarker
+UnlockAllGunsPF.Text = "Unlock All Guns"
+UnlockAllGunsPF.TextColor3 = Color3.fromRGB(49, 49, 49)
+UnlockAllGunsPF.TextScaled = true
+UnlockAllGunsPF.TextSize = 30.000
+UnlockAllGunsPF.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 9)
+UICorner_18.Parent = UnlockAllGunsPF
 
 Title.Name = "Title"
 Title.Parent = ImageLabel
@@ -414,7 +395,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function PIAEYZ_fake_script() -- Heading1.LocalScript 
+local function DPTGP_fake_script() -- Heading1.LocalScript 
 	local script = Instance.new('LocalScript', Heading1)
 
 	script.Parent.Visible = false
@@ -437,8 +418,8 @@ local function PIAEYZ_fake_script() -- Heading1.LocalScript
 	script.Parent.Text = "🔥Scripts🔥"
 	
 end
-coroutine.wrap(PIAEYZ_fake_script)()
-local function WNZO_fake_script() -- Heading2.LocalScript 
+coroutine.wrap(DPTGP_fake_script)()
+local function KBFWKT_fake_script() -- Heading2.LocalScript 
 	local script = Instance.new('LocalScript', Heading2)
 
 	script.Parent.Visible = false
@@ -457,8 +438,8 @@ local function WNZO_fake_script() -- Heading2.LocalScript
 	script.Parent.Text = "🔥Tools🔥"
 	
 end
-coroutine.wrap(WNZO_fake_script)()
-local function MWSLTG_fake_script() -- Heading3.LocalScript 
+coroutine.wrap(KBFWKT_fake_script)()
+local function KJJPDDV_fake_script() -- Heading3.LocalScript 
 	local script = Instance.new('LocalScript', Heading3)
 
 	script.Parent.Visible = false
@@ -480,8 +461,8 @@ local function MWSLTG_fake_script() -- Heading3.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(MWSLTG_fake_script)()
-local function JOFW_fake_script() -- BigHead.LocalScript 
+coroutine.wrap(KJJPDDV_fake_script)()
+local function LYAEMC_fake_script() -- BigHead.LocalScript 
 	local script = Instance.new('LocalScript', BigHead)
 
 	script.Parent.Visible = false
@@ -749,8 +730,8 @@ local function JOFW_fake_script() -- BigHead.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(JOFW_fake_script)()
-local function SPEA_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(LYAEMC_fake_script)()
+local function AQPOCD_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	script.Parent.Visible = false
@@ -763,8 +744,8 @@ local function SPEA_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(SPEA_fake_script)()
-local function BGXMU_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(AQPOCD_fake_script)()
+local function AMKEZMB_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	script.Parent.Visible = false
@@ -777,8 +758,8 @@ local function BGXMU_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BGXMU_fake_script)()
-local function OCTH_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(AMKEZMB_fake_script)()
+local function OVMY_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	script.Parent.Visible = false
@@ -791,8 +772,8 @@ local function OCTH_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(OCTH_fake_script)()
-local function RCGBL_fake_script() -- AntiAfk.LocalScript 
+coroutine.wrap(OVMY_fake_script)()
+local function COYAHJB_fake_script() -- AntiAfk.LocalScript 
 	local script = Instance.new('LocalScript', AntiAfk)
 
 	script.Parent.Visible = false
@@ -805,8 +786,8 @@ local function RCGBL_fake_script() -- AntiAfk.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(RCGBL_fake_script)()
-local function FEHWVX_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(COYAHJB_fake_script)()
+local function MBLGBFD_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.Visible = false
@@ -819,8 +800,8 @@ local function FEHWVX_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(FEHWVX_fake_script)()
-local function LWIMW_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(MBLGBFD_fake_script)()
+local function ARVP_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	script.Parent.Visible = false
@@ -833,8 +814,8 @@ local function LWIMW_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LWIMW_fake_script)()
-local function RCRFNHN_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(ARVP_fake_script)()
+local function JFRTZXF_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	script.Parent.Visible = false
@@ -848,8 +829,8 @@ local function RCRFNHN_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(RCRFNHN_fake_script)()
-local function BRZUWCI_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(JFRTZXF_fake_script)()
+local function SMEE_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	script.Parent.Visible = false
@@ -862,8 +843,8 @@ local function BRZUWCI_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BRZUWCI_fake_script)()
-local function TYXHF_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(SMEE_fake_script)()
+local function PWXROC_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	script.Parent.Visible = false
@@ -876,8 +857,8 @@ local function TYXHF_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(TYXHF_fake_script)()
-local function YDYQ_fake_script() -- AutoLoadScript.LocalScript 
+coroutine.wrap(PWXROC_fake_script)()
+local function XEIFWA_fake_script() -- AutoLoadScript.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoadScript)
 
 	script.Parent.Visible = false
@@ -939,67 +920,51 @@ local function YDYQ_fake_script() -- AutoLoadScript.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(YDYQ_fake_script)()
-local function JYVNCZ_fake_script() -- Heading4.LocalScript 
+coroutine.wrap(XEIFWA_fake_script)()
+local function NJRDKDB_fake_script() -- Heading4.LocalScript 
 	local script = Instance.new('LocalScript', Heading4)
 
 	script.Parent.Visible = false
 	wait(3.6)
+	if game.PlaceId == 292439477 then
 	script.Parent.Visible = true
-	script.Parent.Text = "🔥🔥"
+	wait()
+	script.Parent.Text = "🔥P🔥"
 	wait(0.2)
-	script.Parent.Text = "🔥T🔥"
+	script.Parent.Text = "🔥Ph🔥"
 	wait(0.2)
-	script.Parent.Text = "🔥Ta🔥"
+	script.Parent.Text = "🔥Pha🔥"
 	wait(0.2)
-	script.Parent.Text = "🔥Tar🔥"
-	wait(0.2)
-	script.Parent.Text = "🔥Targ🔥"
-	wait(0.2)
-	script.Parent.Text = "🔥Targe🔥"
-	wait(0.2)
-	script.Parent.Text = "🔥Target🔥"
-	
-	
-end
-coroutine.wrap(JYVNCZ_fake_script)()
-local function MLENSXK_fake_script() -- TeleportToTarget.LocalScript 
-	local script = Instance.new('LocalScript', TeleportToTarget)
-
-	script.Parent.Visible = false
-	wait(4.8)
-	script.Parent.Visible = true
-	wait(1)
-	player = script.Parent.Parent.Parent.Target.Text
-	button = script.Parent
-	local debounce = false
-	
-	function helpme()
-	 if not debounce then
-	  
-	 debounce = true
-	 local Torso = player.Character.Torso
-	 Torso.CFrame = game.Workspace.TP.CFrame
-	 
-	 end
+		script.Parent.Text = "🔥Phan🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phant🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phant🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phanto🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom 🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom F🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom Fo🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom For🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom Forc🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom Force🔥"
+		wait(0.2)
+		script.Parent.Text = "🔥Phantom Forces🔥"
+		wait(0.2)
 	end
-	button.MouseButton1Click:connect(helpme)
 	
-	while true do wait()
-	debounce = false
-	end
-end
-coroutine.wrap(MLENSXK_fake_script)()
-local function XYWE_fake_script() -- Target.LocalScript 
-	local script = Instance.new('LocalScript', Target)
-
-	script.Parent.Visible = false
-	wait(4.8)
-	script.Parent.Visible = true
 	
 end
-coroutine.wrap(XYWE_fake_script)()
-local function CBIIEXB_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(NJRDKDB_fake_script)()
+local function ETDNBA_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.Visible = false
@@ -1012,16 +977,32 @@ local function CBIIEXB_fake_script() -- InfiniteYield.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(CBIIEXB_fake_script)()
-local function YABPJ_fake_script() -- Info.LocalScript 
+coroutine.wrap(ETDNBA_fake_script)()
+local function XBTIHZN_fake_script() -- Info.LocalScript 
 	local script = Instance.new('LocalScript', Info)
 
 	script.Parent.Visible = false
 	wait(4.6)
 	script.Parent.Visible = true
 end
-coroutine.wrap(YABPJ_fake_script)()
-local function ZBNVNP_fake_script() -- Title.LocalScript 
+coroutine.wrap(XBTIHZN_fake_script)()
+local function KTTF_fake_script() -- UnlockAllGunsPF.LocalScript 
+	local script = Instance.new('LocalScript', UnlockAllGunsPF)
+
+	script.Parent.Visible = false
+	wait(6.4)
+	if game.PlaceId == 292439477 then
+		script.Parent.Visible = true
+		function onclick()
+			print("🔥Executed🔥")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))()
+		end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+	end
+end
+coroutine.wrap(KTTF_fake_script)()
+local function GZNNC_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	script.Parent.Text = "🔥🔥"
@@ -1062,8 +1043,8 @@ local function ZBNVNP_fake_script() -- Title.LocalScript
 	wait(0.2)
 	
 end
-coroutine.wrap(ZBNVNP_fake_script)()
-local function KTBL_fake_script() -- Loading.LocalScript 
+coroutine.wrap(GZNNC_fake_script)()
+local function OSXLJ_fake_script() -- Loading.LocalScript 
 	local script = Instance.new('LocalScript', Loading)
 
 	script.Parent.Visible = true
@@ -1103,8 +1084,8 @@ local function KTBL_fake_script() -- Loading.LocalScript
 	
 	
 end
-coroutine.wrap(KTBL_fake_script)()
-local function BQZONRI_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(OSXLJ_fake_script)()
+local function NXCGTWT_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local UIS = game:GetService("UserInputService")
@@ -1147,5 +1128,5 @@ local function BQZONRI_fake_script() -- ImageLabel.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BQZONRI_fake_script)()
+coroutine.wrap(NXCGTWT_fake_script)()
 
