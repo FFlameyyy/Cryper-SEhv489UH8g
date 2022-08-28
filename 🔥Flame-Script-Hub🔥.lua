@@ -121,7 +121,7 @@ local TextLabel = Instance.new("TextLabel")
 Main0.Name = "Main0"
 
 
-Main0.Parent = game.Workspace
+Main0.Parent = game.CoreGui
 
 
 Main0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
