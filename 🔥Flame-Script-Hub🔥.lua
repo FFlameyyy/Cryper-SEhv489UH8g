@@ -12,9 +12,9 @@ local UICorner_3 = Instance.new("UICorner")
 local PlrScriptsLoader = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local promtDestroy = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local ImageLabel = Instance.new("ImageLabel")
+local promtDestroyvje983 = Instance.new("TextButton")
+local Closehfw9 = Instance.new("TextButton")
+local ImageLabel46 = Instance.new("ImageLabel")
 local ScriptConnect = Instance.new("ScrollingFrame")
 local Scripts = Instance.new("Folder")
 local DaHood = Instance.new("TextButton")
@@ -44,11 +44,11 @@ local InfoConnect = Instance.new("ScrollingFrame")
 local Info = Instance.new("Folder")
 local TextLabel = Instance.new("TextLabel")
 local UICorner_15 = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
+local TextBoxDT634 = Instance.new("TextBox")
 local UICorner_16 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local UICorner_17 = Instance.new("UICorner")
-local TextBox_2 = Instance.new("TextBox")
+local TextBoxdh = Instance.new("TextBox")
 local UICorner_18 = Instance.new("UICorner")
 local PlrScriptsConnect = Instance.new("ScrollingFrame")
 local PlayerScripts = Instance.new("Folder")
@@ -58,11 +58,11 @@ local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local DestrotPrompt = Instance.new("Frame")
 local UICorner_20 = Instance.new("UICorner")
 local Title_2 = Instance.new("TextLabel")
-local Destroy = Instance.new("TextButton")
+local Destroy5434rh = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local ClosePrompt = Instance.new("TextButton")
+local ClosePromptbf42 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local Open = Instance.new("TextButton")
+local Openf39g = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 
 --Properties:
@@ -158,45 +158,46 @@ Title.TextScaled = true
 Title.TextSize = 28.000
 Title.TextWrapped = true
 
-promtDestroy.Name = "promtDestroy"
-promtDestroy.Parent = Title
-promtDestroy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-promtDestroy.BackgroundTransparency = 1.000
-promtDestroy.BorderSizePixel = 0
-promtDestroy.Position = UDim2.new(0.885872483, 0, 0.0620773956, 0)
-promtDestroy.Size = UDim2.new(0.100000001, 0, 0.899999976, 0)
-promtDestroy.Font = Enum.Font.Code
-promtDestroy.Text = "X"
-promtDestroy.TextColor3 = Color3.fromRGB(59, 188, 0)
-promtDestroy.TextScaled = true
-promtDestroy.TextSize = 14.000
-promtDestroy.TextWrapped = true
+promtDestroyvje983.Name = "promtDestroyvje983"
+promtDestroyvje983.Parent = Title
+promtDestroyvje983.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+promtDestroyvje983.BackgroundTransparency = 1.000
+promtDestroyvje983.BorderSizePixel = 0
+promtDestroyvje983.Position = UDim2.new(0.885872483, 0, 0.0620773956, 0)
+promtDestroyvje983.Size = UDim2.new(0.100000001, 0, 0.899999976, 0)
+promtDestroyvje983.Font = Enum.Font.Code
+promtDestroyvje983.Text = "X"
+promtDestroyvje983.TextColor3 = Color3.fromRGB(59, 188, 0)
+promtDestroyvje983.TextScaled = true
+promtDestroyvje983.TextSize = 14.000
+promtDestroyvje983.TextWrapped = true
 
-Close.Name = "Close"
-Close.Parent = Title
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.760288954, 0, 0.0936868861, 0)
-Close.Size = UDim2.new(0.100000001, 0, 0.899999976, 0)
-Close.Font = Enum.Font.Code
-Close.Text = "-"
-Close.TextColor3 = Color3.fromRGB(59, 188, 0)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextWrapped = true
+Closehfw9.Name = "Closehfw9"
+Closehfw9.Parent = Title
+Closehfw9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Closehfw9.BackgroundTransparency = 1.000
+Closehfw9.BorderSizePixel = 0
+Closehfw9.Position = UDim2.new(0.760288954, 0, 0.0936868861, 0)
+Closehfw9.Size = UDim2.new(0.100000001, 0, 0.899999976, 0)
+Closehfw9.Font = Enum.Font.Code
+Closehfw9.Text = "-"
+Closehfw9.TextColor3 = Color3.fromRGB(59, 188, 0)
+Closehfw9.TextScaled = true
+Closehfw9.TextSize = 14.000
+Closehfw9.TextWrapped = true
 
-ImageLabel.Parent = Joint
-ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.LayoutOrder = 1
-ImageLabel.Position = UDim2.new(0.247651711, 0, 0.128446147, 0)
-ImageLabel.Size = UDim2.new(0.748414397, 0, 0.867605627, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=3369387734"
-ImageLabel.ImageColor3 = Color3.fromRGB(68, 68, 68)
+ImageLabel46.Name = "ImageLabel46"
+ImageLabel46.Parent = Joint
+ImageLabel46.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel46.BorderSizePixel = 0
+ImageLabel46.LayoutOrder = 1
+ImageLabel46.Position = UDim2.new(0.247651711, 0, 0.128446147, 0)
+ImageLabel46.Size = UDim2.new(0.748414397, 0, 0.867605627, 0)
+ImageLabel46.Image = "http://www.roblox.com/asset/?id=3369387734"
+ImageLabel46.ImageColor3 = Color3.fromRGB(68, 68, 68)
 
 ScriptConnect.Name = "ScriptConnect"
-ScriptConnect.Parent = ImageLabel
+ScriptConnect.Parent = ImageLabel46
 ScriptConnect.Active = true
 ScriptConnect.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 ScriptConnect.BackgroundTransparency = 1.000
@@ -337,7 +338,7 @@ KaijuParadise.TextWrapped = true
 UICorner_13.Parent = KaijuParadise
 
 ToolsConnect.Name = "ToolsConnect"
-ToolsConnect.Parent = ImageLabel
+ToolsConnect.Parent = ImageLabel46
 ToolsConnect.Active = true
 ToolsConnect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ToolsConnect.BackgroundTransparency = 1.000
@@ -369,7 +370,7 @@ UITextSizeConstraint.Parent = AutoLoad
 UITextSizeConstraint.MaxTextSize = 22
 
 InfoConnect.Name = "InfoConnect"
-InfoConnect.Parent = ImageLabel
+InfoConnect.Parent = ImageLabel46
 InfoConnect.Active = true
 InfoConnect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 InfoConnect.BackgroundTransparency = 1.000
@@ -399,20 +400,21 @@ TextLabel.TextWrapped = true
 UICorner_15.CornerRadius = UDim.new(0, 10)
 UICorner_15.Parent = TextLabel
 
-TextBox.Parent = Info
-TextBox.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextBox.Position = UDim2.new(0.248044804, 0, 0.0107615357, 0)
-TextBox.Size = UDim2.new(0.5, 0, 0.00499999989, 0)
-TextBox.ClearTextOnFocus = false
-TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = "Error ???"
-TextBox.TextColor3 = Color3.fromRGB(59, 188, 0)
-TextBox.TextScaled = true
-TextBox.TextSize = 20.000
-TextBox.TextWrapped = true
+TextBoxDT634.Name = "TextBoxDT634"
+TextBoxDT634.Parent = Info
+TextBoxDT634.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextBoxDT634.Position = UDim2.new(0.248044804, 0, 0.0107615357, 0)
+TextBoxDT634.Size = UDim2.new(0.5, 0, 0.00499999989, 0)
+TextBoxDT634.ClearTextOnFocus = false
+TextBoxDT634.Font = Enum.Font.SourceSans
+TextBoxDT634.Text = "Error ???"
+TextBoxDT634.TextColor3 = Color3.fromRGB(59, 188, 0)
+TextBoxDT634.TextScaled = true
+TextBoxDT634.TextSize = 20.000
+TextBoxDT634.TextWrapped = true
 
 UICorner_16.CornerRadius = UDim.new(0, 10)
-UICorner_16.Parent = TextBox
+UICorner_16.Parent = TextBoxDT634
 
 TextLabel_2.Parent = InfoConnect
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
@@ -429,23 +431,24 @@ TextLabel_2.TextWrapped = true
 UICorner_17.CornerRadius = UDim.new(0, 10)
 UICorner_17.Parent = TextLabel_2
 
-TextBox_2.Parent = InfoConnect
-TextBox_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextBox_2.Position = UDim2.new(0.246565804, 0, 0.0279302821, 0)
-TextBox_2.Size = UDim2.new(0.5, 0, 0.00499999989, 0)
-TextBox_2.ClearTextOnFocus = false
-TextBox_2.Font = Enum.Font.SourceSans
-TextBox_2.Text = "Error ???"
-TextBox_2.TextColor3 = Color3.fromRGB(59, 188, 0)
-TextBox_2.TextScaled = true
-TextBox_2.TextSize = 20.000
-TextBox_2.TextWrapped = true
+TextBoxdh.Name = "TextBoxdh"
+TextBoxdh.Parent = InfoConnect
+TextBoxdh.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextBoxdh.Position = UDim2.new(0.246565804, 0, 0.0279302821, 0)
+TextBoxdh.Size = UDim2.new(0.5, 0, 0.00499999989, 0)
+TextBoxdh.ClearTextOnFocus = false
+TextBoxdh.Font = Enum.Font.SourceSans
+TextBoxdh.Text = "Error ???"
+TextBoxdh.TextColor3 = Color3.fromRGB(59, 188, 0)
+TextBoxdh.TextScaled = true
+TextBoxdh.TextSize = 20.000
+TextBoxdh.TextWrapped = true
 
 UICorner_18.CornerRadius = UDim.new(0, 10)
-UICorner_18.Parent = TextBox_2
+UICorner_18.Parent = TextBoxdh
 
 PlrScriptsConnect.Name = "PlrScriptsConnect"
-PlrScriptsConnect.Parent = ImageLabel
+PlrScriptsConnect.Parent = ImageLabel46
 PlrScriptsConnect.Active = true
 PlrScriptsConnect.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PlrScriptsConnect.BackgroundTransparency = 1.000
@@ -501,55 +504,55 @@ Title_2.TextScaled = true
 Title_2.TextSize = 28.000
 Title_2.TextWrapped = true
 
-Destroy.Name = "Destroy"
-Destroy.Parent = DestrotPrompt
-Destroy.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-Destroy.BorderSizePixel = 0
-Destroy.Position = UDim2.new(0.629965186, 0, 0.799719632, 0)
-Destroy.Size = UDim2.new(0.281103939, 0, 0.142313391, 0)
-Destroy.Font = Enum.Font.Code
-Destroy.Text = "Yes"
-Destroy.TextColor3 = Color3.fromRGB(59, 188, 0)
-Destroy.TextScaled = true
-Destroy.TextSize = 14.000
-Destroy.TextWrapped = true
+Destroy5434rh.Name = "Destroy5434rh"
+Destroy5434rh.Parent = DestrotPrompt
+Destroy5434rh.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Destroy5434rh.BorderSizePixel = 0
+Destroy5434rh.Position = UDim2.new(0.629965186, 0, 0.799719632, 0)
+Destroy5434rh.Size = UDim2.new(0.281103939, 0, 0.142313391, 0)
+Destroy5434rh.Font = Enum.Font.Code
+Destroy5434rh.Text = "Yes"
+Destroy5434rh.TextColor3 = Color3.fromRGB(59, 188, 0)
+Destroy5434rh.TextScaled = true
+Destroy5434rh.TextSize = 14.000
+Destroy5434rh.TextWrapped = true
 
-UICorner_21.Parent = Destroy
+UICorner_21.Parent = Destroy5434rh
 
-ClosePrompt.Name = "ClosePrompt"
-ClosePrompt.Parent = DestrotPrompt
-ClosePrompt.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-ClosePrompt.BorderSizePixel = 0
-ClosePrompt.Position = UDim2.new(0.12602824, 0, 0.799719632, 0)
-ClosePrompt.Size = UDim2.new(0.281103939, 0, 0.142313391, 0)
-ClosePrompt.Font = Enum.Font.Code
-ClosePrompt.Text = "No"
-ClosePrompt.TextColor3 = Color3.fromRGB(59, 188, 0)
-ClosePrompt.TextScaled = true
-ClosePrompt.TextSize = 14.000
-ClosePrompt.TextWrapped = true
+ClosePromptbf42.Name = "ClosePromptbf42"
+ClosePromptbf42.Parent = DestrotPrompt
+ClosePromptbf42.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+ClosePromptbf42.BorderSizePixel = 0
+ClosePromptbf42.Position = UDim2.new(0.12602824, 0, 0.799719632, 0)
+ClosePromptbf42.Size = UDim2.new(0.281103939, 0, 0.142313391, 0)
+ClosePromptbf42.Font = Enum.Font.Code
+ClosePromptbf42.Text = "No"
+ClosePromptbf42.TextColor3 = Color3.fromRGB(59, 188, 0)
+ClosePromptbf42.TextScaled = true
+ClosePromptbf42.TextSize = 14.000
+ClosePromptbf42.TextWrapped = true
 
-UICorner_22.Parent = ClosePrompt
+UICorner_22.Parent = ClosePromptbf42
 
-Open.Name = "Open"
-Open.Parent = CrackedScreenUi
-Open.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-Open.BorderSizePixel = 0
-Open.Position = UDim2.new(0.896933556, 0, 0.946477294, 0)
-Open.Size = UDim2.new(0.0940752551, 0, 0.0444749184, 0)
-Open.Visible = false
-Open.Font = Enum.Font.Code
-Open.Text = "Open Craked"
-Open.TextColor3 = Color3.fromRGB(59, 188, 0)
-Open.TextScaled = true
-Open.TextSize = 14.000
-Open.TextWrapped = true
+Openf39g.Name = "Openf39g"
+Openf39g.Parent = CrackedScreenUi
+Openf39g.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Openf39g.BorderSizePixel = 0
+Openf39g.Position = UDim2.new(0.896933556, 0, 0.946477294, 0)
+Openf39g.Size = UDim2.new(0.0940752551, 0, 0.0444749184, 0)
+Openf39g.Visible = false
+Openf39g.Font = Enum.Font.Code
+Openf39g.Text = "Open Craked"
+Openf39g.TextColor3 = Color3.fromRGB(59, 188, 0)
+Openf39g.TextScaled = true
+Openf39g.TextSize = 14.000
+Openf39g.TextWrapped = true
 
-UICorner_23.Parent = Open
+UICorner_23.Parent = Openf39g
 
 -- Scripts:
 
-local function TTBJA_fake_script() -- Joint.LocalScript 
+local function EDELG_fake_script() -- Joint.LocalScript 
 	local script = Instance.new('LocalScript', Joint)
 
 	local UIS = game:GetService("UserInputService")
@@ -592,8 +595,8 @@ local function TTBJA_fake_script() -- Joint.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TTBJA_fake_script)()
-local function MFSGJ_fake_script() -- ScriptLoader.LocalScript 
+coroutine.wrap(EDELG_fake_script)()
+local function YLKL_fake_script() -- ScriptLoader.LocalScript 
 	local script = Instance.new('LocalScript', ScriptLoader)
 
 	script.Parent.Visible = false
@@ -610,8 +613,8 @@ local function MFSGJ_fake_script() -- ScriptLoader.LocalScript
 	
 	
 end
-coroutine.wrap(MFSGJ_fake_script)()
-local function MMBSS_fake_script() -- ToolsLoader.LocalScript 
+coroutine.wrap(YLKL_fake_script)()
+local function ZPBWO_fake_script() -- ToolsLoader.LocalScript 
 	local script = Instance.new('LocalScript', ToolsLoader)
 
 	script.Parent.Visible = false
@@ -627,8 +630,8 @@ local function MMBSS_fake_script() -- ToolsLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(MMBSS_fake_script)()
-local function NOKEVP_fake_script() -- InfoLoader.LocalScript 
+coroutine.wrap(ZPBWO_fake_script)()
+local function ZDOE_fake_script() -- InfoLoader.LocalScript 
 	local script = Instance.new('LocalScript', InfoLoader)
 
 	script.Parent.Visible = false
@@ -644,8 +647,8 @@ local function NOKEVP_fake_script() -- InfoLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(NOKEVP_fake_script)()
-local function DCOM_fake_script() -- PlrScriptsLoader.LocalScript 
+coroutine.wrap(ZDOE_fake_script)()
+local function KBSJFT_fake_script() -- PlrScriptsLoader.LocalScript 
 	local script = Instance.new('LocalScript', PlrScriptsLoader)
 
 	script.Parent.Visible = false
@@ -661,11 +664,10 @@ local function DCOM_fake_script() -- PlrScriptsLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(DCOM_fake_script)()
-local function UIAGXLQ_fake_script() -- promtDestroy.LocalScript 
-	local script = Instance.new('LocalScript', promtDestroy)
+coroutine.wrap(KBSJFT_fake_script)()
+local function EYKBA_fake_script() -- promtDestroyvje983.LocalScript 
+	local script = Instance.new('LocalScript', promtDestroyvje983)
 
-	
 	function onclick()
 	script.Parent.Parent.Parent.Parent.DestrotPrompt.Visible = true
 	end
@@ -673,8 +675,8 @@ local function UIAGXLQ_fake_script() -- promtDestroy.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(UIAGXLQ_fake_script)()
-local function AIVHZWQ_fake_script() -- Title.LocalScript 
+coroutine.wrap(EYKBA_fake_script)()
+local function QAKHVZA_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	local a  = 0.2
@@ -694,21 +696,20 @@ local function AIVHZWQ_fake_script() -- Title.LocalScript
 	script.Parent.Text = "Cracked"
 	
 end
-coroutine.wrap(AIVHZWQ_fake_script)()
-local function FJCJHDC_fake_script() -- Close.LocalScript 
-	local script = Instance.new('LocalScript', Close)
+coroutine.wrap(QAKHVZA_fake_script)()
+local function HJGJE_fake_script() -- Closehfw9.LocalScript 
+	local script = Instance.new('LocalScript', Closehfw9)
 
-	
 	function onclick()
-	script.Parent.Parent.Parent.Parent.Open.Visible = true
+	script.Parent.Parent.Parent.Parent.Openf39g.Visible = true
 	script.Parent.Parent.Parent.Parent.Joint.Visible = false
 	end
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(FJCJHDC_fake_script)()
-local function SFYBH_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(HJGJE_fake_script)()
+local function JDDSLTL_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	function onclick()
@@ -717,8 +718,8 @@ local function SFYBH_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(SFYBH_fake_script)()
-local function HOXV_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(JDDSLTL_fake_script)()
+local function LIFZI_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	function onclick()
@@ -727,8 +728,8 @@ local function HOXV_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(HOXV_fake_script)()
-local function BABD_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(LIFZI_fake_script)()
+local function BXBZ_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	function onclick()
@@ -737,8 +738,8 @@ local function BABD_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BABD_fake_script)()
-local function XHUAKD_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(BXBZ_fake_script)()
+local function NHTN_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	function onclick()
@@ -747,8 +748,8 @@ local function XHUAKD_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(XHUAKD_fake_script)()
-local function ZTLP_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(NHTN_fake_script)()
+local function WZWQY_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	function onclick()
@@ -757,8 +758,8 @@ local function ZTLP_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ZTLP_fake_script)()
-local function BNRPF_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(WZWQY_fake_script)()
+local function MJDBV_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	function onclick()
@@ -768,8 +769,8 @@ local function BNRPF_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BNRPF_fake_script)()
-local function RAMQUI_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(MJDBV_fake_script)()
+local function BSZM_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	function onclick()
@@ -778,8 +779,8 @@ local function RAMQUI_fake_script() -- InfiniteYield.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(RAMQUI_fake_script)()
-local function FHPVG_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(BSZM_fake_script)()
+local function JEDCCLJ_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	function onclick()
@@ -788,8 +789,8 @@ local function FHPVG_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(FHPVG_fake_script)()
-local function DCLFMP_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(JEDCCLJ_fake_script)()
+local function YOCHE_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	function onclick()
@@ -798,8 +799,8 @@ local function DCLFMP_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(DCLFMP_fake_script)()
-local function TGFF_fake_script() -- AutoLoad.LocalScript 
+coroutine.wrap(YOCHE_fake_script)()
+local function MUKWOU_fake_script() -- AutoLoad.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoad)
 
 	function onclick()
@@ -857,36 +858,22 @@ local function TGFF_fake_script() -- AutoLoad.LocalScript
 	
 		script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(TGFF_fake_script)()
-local function YNMWQC_fake_script() -- TextLabel.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel)
-
-	a = game.PlaceID
-	script.Parent.Text = a
-end
-coroutine.wrap(YNMWQC_fake_script)()
-local function QJWA_fake_script() -- TextBox.LocalScript 
-	local script = Instance.new('LocalScript', TextBox)
+coroutine.wrap(MUKWOU_fake_script)()
+local function XGJIU_fake_script() -- TextBoxDT634.LocalScript 
+	local script = Instance.new('LocalScript', TextBoxDT634)
 
 	a = game.PlaceId
 	script.Parent.Text = a
 end
-coroutine.wrap(QJWA_fake_script)()
-local function LNXAZO_fake_script() -- TextLabel_2.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_2)
-
-	a = game.PlaceID
-	script.Parent.Text = a
-end
-coroutine.wrap(LNXAZO_fake_script)()
-local function LZLJLS_fake_script() -- TextBox_2.LocalScript 
-	local script = Instance.new('LocalScript', TextBox_2)
+coroutine.wrap(XGJIU_fake_script)()
+local function EJEG_fake_script() -- TextBoxdh.LocalScript 
+	local script = Instance.new('LocalScript', TextBoxdh)
 
 	a = game.PlaceVersion
 	script.Parent.Text = a
 end
-coroutine.wrap(LZLJLS_fake_script)()
-local function YYBW_fake_script() -- BigHead.LocalScript 
+coroutine.wrap(EJEG_fake_script)()
+local function FFLVMT_fake_script() -- BigHead.LocalScript 
 	local script = Instance.new('LocalScript', BigHead)
 
 	function onclick()
@@ -1150,21 +1137,10 @@ local function YYBW_fake_script() -- BigHead.LocalScript
 	
 		script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(YYBW_fake_script)()
-local function AOASJE_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
+coroutine.wrap(FFLVMT_fake_script)()
+local function VQJW_fake_script() -- Destroy5434rh.LocalScript 
+	local script = Instance.new('LocalScript', Destroy5434rh)
 
-	script.Parent.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-	script.Parent.ImageColor3 = Color3.fromHSV(0, 0, 1)
-	wait(1)
-	script.Parent.Image = "http://www.roblox.com/asset/?id=3369387734"
-	script.Parent.ImageColor3 = Color3.fromHSV(0, 0, 0.266667)
-end
-coroutine.wrap(AOASJE_fake_script)()
-local function OWMZACU_fake_script() -- Destroy.LocalScript 
-	local script = Instance.new('LocalScript', Destroy)
-
-	
 	function onclick()
 	script.Parent.Parent.Parent.Enabled = false
 	end
@@ -1172,11 +1148,10 @@ local function OWMZACU_fake_script() -- Destroy.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(OWMZACU_fake_script)()
-local function ZBFDCW_fake_script() -- ClosePrompt.LocalScript 
-	local script = Instance.new('LocalScript', ClosePrompt)
+coroutine.wrap(VQJW_fake_script)()
+local function UNCIFLD_fake_script() -- ClosePromptbf42.LocalScript 
+	local script = Instance.new('LocalScript', ClosePromptbf42)
 
-	
 	function onclick()
 	script.Parent.Parent.Visible = false
 	end
@@ -1184,11 +1159,10 @@ local function ZBFDCW_fake_script() -- ClosePrompt.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(ZBFDCW_fake_script)()
-local function IDLEP_fake_script() -- Open.LocalScript 
-	local script = Instance.new('LocalScript', Open)
+coroutine.wrap(UNCIFLD_fake_script)()
+local function IDXCCA_fake_script() -- Openf39g.LocalScript 
+	local script = Instance.new('LocalScript', Openf39g)
 
-	
 	function onclick()
 	script.Parent.Visible = false
 	script.Parent.Parent.Joint.Visible = true
@@ -1197,5 +1171,6 @@ local function IDLEP_fake_script() -- Open.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(IDLEP_fake_script)()
+coroutine.wrap(IDXCCA_fake_script)()
+
 
