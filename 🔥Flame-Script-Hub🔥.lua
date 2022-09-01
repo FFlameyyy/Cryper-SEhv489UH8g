@@ -587,13 +587,15 @@ local function RAKUQV_fake_script() -- Title.LocalScript
 	wait(a)
 	script.Parent.Text = "Cr"
 	wait(a)
-	script.Parent.Text = "Cry"
+	script.Parent.Text = "Cra"
 	wait(a)
-	script.Parent.Text = "Cryp"
+	script.Parent.Text = "Crac"
 	wait(a)
-	script.Parent.Text = "Crype"
+	script.Parent.Text = "Crack"
 	wait(a)
-	script.Parent.Text = "Cryper"
+	script.Parent.Text = "Cracke"
+        wait(a)
+        script.Parent.Text = "Cracked"
 	
 end
 coroutine.wrap(RAKUQV_fake_script)()
