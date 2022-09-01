@@ -55,6 +55,8 @@ local BigHead = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 
+if Gh846GH == hHf49 then do
+
 --Properties:
 
 CryperScreenUi.Name = "CryperScreenUi"
@@ -1049,4 +1051,5 @@ local function LOWZI_fake_script() -- ImageLabel.LocalScript
 	script.Parent.ImageColor3 = Color3.fromHSV(0, 0, 0.266667)
 end
 coroutine.wrap(LOWZI_fake_script)()
+end
 
