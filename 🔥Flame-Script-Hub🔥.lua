@@ -7,9 +7,9 @@ local ScriptLoader = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local ToolsLoader = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local InfoLoader = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
 local PlrScriptsLoader = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local InfoLoader = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
 local promtDestroyvje983 = Instance.new("TextButton")
@@ -54,7 +54,6 @@ local PlrScriptsConnect = Instance.new("ScrollingFrame")
 local PlayerScripts = Instance.new("Folder")
 local BigHead = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local DestrotPrompt = Instance.new("Frame")
 local UICorner_20 = Instance.new("UICorner")
 local Title_2 = Instance.new("TextLabel")
@@ -117,20 +116,6 @@ ToolsLoader.TextWrapped = true
 
 UICorner_2.Parent = ToolsLoader
 
-InfoLoader.Name = "InfoLoader"
-InfoLoader.Parent = ConnectCat
-InfoLoader.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-InfoLoader.Position = UDim2.new(0.0931479037, 0, 0.0200858507, 0)
-InfoLoader.Size = UDim2.new(0.800000012, 0, 0.00499999989, 0)
-InfoLoader.Font = Enum.Font.Code
-InfoLoader.Text = "Info"
-InfoLoader.TextColor3 = Color3.fromRGB(59, 188, 0)
-InfoLoader.TextScaled = true
-InfoLoader.TextSize = 22.000
-InfoLoader.TextWrapped = true
-
-UICorner_3.Parent = InfoLoader
-
 PlrScriptsLoader.Name = "PlrScriptsLoader"
 PlrScriptsLoader.Parent = ConnectCat
 PlrScriptsLoader.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
@@ -143,7 +128,21 @@ PlrScriptsLoader.TextScaled = true
 PlrScriptsLoader.TextSize = 22.000
 PlrScriptsLoader.TextWrapped = true
 
-UICorner_4.Parent = PlrScriptsLoader
+UICorner_3.Parent = PlrScriptsLoader
+
+InfoLoader.Name = "InfoLoader"
+InfoLoader.Parent = ConnectCat
+InfoLoader.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+InfoLoader.Position = UDim2.new(0.0931479037, 0, 0.0200858507, 0)
+InfoLoader.Size = UDim2.new(0.800000012, 0, 0.00499999989, 0)
+InfoLoader.Font = Enum.Font.Code
+InfoLoader.Text = "Info"
+InfoLoader.TextColor3 = Color3.fromRGB(59, 188, 0)
+InfoLoader.TextScaled = true
+InfoLoader.TextSize = 22.000
+InfoLoader.TextWrapped = true
+
+UICorner_4.Parent = InfoLoader
 
 Title.Name = "Title"
 Title.Parent = Joint
@@ -476,9 +475,6 @@ BigHead.TextWrapped = true
 
 UICorner_19.Parent = BigHead
 
-UITextSizeConstraint_2.Parent = BigHead
-UITextSizeConstraint_2.MaxTextSize = 22
-
 DestrotPrompt.Name = "DestrotPrompt"
 DestrotPrompt.Parent = CrackedScreenUi
 DestrotPrompt.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
@@ -552,7 +548,7 @@ UICorner_23.Parent = Openf39g
 
 -- Scripts:
 
-local function EDELG_fake_script() -- Joint.LocalScript 
+local function VLNPL_fake_script() -- Joint.LocalScript 
 	local script = Instance.new('LocalScript', Joint)
 
 	local UIS = game:GetService("UserInputService")
@@ -595,77 +591,77 @@ local function EDELG_fake_script() -- Joint.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EDELG_fake_script)()
-local function YLKL_fake_script() -- ScriptLoader.LocalScript 
+coroutine.wrap(VLNPL_fake_script)()
+local function VKGGK_fake_script() -- ScriptLoader.LocalScript 
 	local script = Instance.new('LocalScript', ScriptLoader)
 
 	script.Parent.Visible = false
 	wait(3)
 	script.Parent.Visible = true
 	function onclick()
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ScriptConnect.Visible = true
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ToolsConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.InfoConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.PlrScriptsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ScriptConnect.Visible = true
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ToolsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.PlrScriptsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.InfoConnect.Visible = false
 	end
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 	
 end
-coroutine.wrap(YLKL_fake_script)()
-local function ZPBWO_fake_script() -- ToolsLoader.LocalScript 
+coroutine.wrap(VKGGK_fake_script)()
+local function UQNGD_fake_script() -- ToolsLoader.LocalScript 
 	local script = Instance.new('LocalScript', ToolsLoader)
 
 	script.Parent.Visible = false
 	wait(3)
 	script.Parent.Visible = true
 	function onclick()
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ScriptConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ToolsConnect.Visible = true
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.InfoConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.PlrScriptsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ScriptConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ToolsConnect.Visible = true
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.PlrScriptsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.InfoConnect.Visible = false
 	end
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(ZPBWO_fake_script)()
-local function ZDOE_fake_script() -- InfoLoader.LocalScript 
-	local script = Instance.new('LocalScript', InfoLoader)
-
-	script.Parent.Visible = false
-	wait(3)
-	script.Parent.Visible = true
-	function onclick()
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ScriptConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ToolsConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.InfoConnect.Visible = true
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.PlrScriptsConnect.Visible = false
-	end
-	
-	script.Parent.MouseButton1Click:connect(onclick)
-	
-end
-coroutine.wrap(ZDOE_fake_script)()
-local function KBSJFT_fake_script() -- PlrScriptsLoader.LocalScript 
+coroutine.wrap(UQNGD_fake_script)()
+local function XRMJC_fake_script() -- PlrScriptsLoader.LocalScript 
 	local script = Instance.new('LocalScript', PlrScriptsLoader)
 
 	script.Parent.Visible = false
 	wait(3)
 	script.Parent.Visible = true
 	function onclick()
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ScriptConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.ToolsConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.InfoConnect.Visible = false
-		script.Parent.Parent.Parent.Parent.Joint.ImageLabel.PlrScriptsConnect.Visible = true
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ScriptConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ToolsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.PlrScriptsConnect.Visible = true
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.InfoConnect.Visible = false
 	end
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(KBSJFT_fake_script)()
-local function EYKBA_fake_script() -- promtDestroyvje983.LocalScript 
+coroutine.wrap(XRMJC_fake_script)()
+local function FINBWM_fake_script() -- InfoLoader.LocalScript 
+	local script = Instance.new('LocalScript', InfoLoader)
+
+	script.Parent.Visible = false
+	wait(3)
+	script.Parent.Visible = true
+	function onclick()
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ScriptConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.ToolsConnect.Visible = false
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.InfoConnect.Visible = true
+		script.Parent.Parent.Parent.Parent.Joint.ImageLabel46.PlrScriptsConnect.Visible = false
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+	
+end
+coroutine.wrap(FINBWM_fake_script)()
+local function PPGKU_fake_script() -- promtDestroyvje983.LocalScript 
 	local script = Instance.new('LocalScript', promtDestroyvje983)
 
 	function onclick()
@@ -675,29 +671,8 @@ local function EYKBA_fake_script() -- promtDestroyvje983.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(EYKBA_fake_script)()
-local function QAKHVZA_fake_script() -- Title.LocalScript 
-	local script = Instance.new('LocalScript', Title)
-
-	local a  = 0.2
-	
-	script.Parent.Text = "C"
-	wait(a)
-	script.Parent.Text = "Cr"
-	wait(a)
-	script.Parent.Text = "Cra"
-	wait(a)
-	script.Parent.Text = "Crac"
-	wait(a)
-	script.Parent.Text = "Crack"
-	wait(a)
-	script.Parent.Text = "Cracke"
-	wait(a)
-	script.Parent.Text = "Cracked"
-	
-end
-coroutine.wrap(QAKHVZA_fake_script)()
-local function HJGJE_fake_script() -- Closehfw9.LocalScript 
+coroutine.wrap(PPGKU_fake_script)()
+local function NNBA_fake_script() -- Closehfw9.LocalScript 
 	local script = Instance.new('LocalScript', Closehfw9)
 
 	function onclick()
@@ -708,8 +683,8 @@ local function HJGJE_fake_script() -- Closehfw9.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(HJGJE_fake_script)()
-local function JDDSLTL_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(NNBA_fake_script)()
+local function DURZF_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	function onclick()
@@ -718,8 +693,8 @@ local function JDDSLTL_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(JDDSLTL_fake_script)()
-local function LIFZI_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(DURZF_fake_script)()
+local function MGHSHVY_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	function onclick()
@@ -728,8 +703,8 @@ local function LIFZI_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LIFZI_fake_script)()
-local function BXBZ_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(MGHSHVY_fake_script)()
+local function FUZBE_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	function onclick()
@@ -738,8 +713,8 @@ local function BXBZ_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BXBZ_fake_script)()
-local function NHTN_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(FUZBE_fake_script)()
+local function WRZMKXO_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	function onclick()
@@ -748,8 +723,8 @@ local function NHTN_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(NHTN_fake_script)()
-local function WZWQY_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(WRZMKXO_fake_script)()
+local function QYKVFPL_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	function onclick()
@@ -758,8 +733,8 @@ local function WZWQY_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(WZWQY_fake_script)()
-local function MJDBV_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(QYKVFPL_fake_script)()
+local function RSQY_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	function onclick()
@@ -769,8 +744,8 @@ local function MJDBV_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(MJDBV_fake_script)()
-local function BSZM_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(RSQY_fake_script)()
+local function CIGCJV_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	function onclick()
@@ -779,8 +754,8 @@ local function BSZM_fake_script() -- InfiniteYield.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BSZM_fake_script)()
-local function JEDCCLJ_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(CIGCJV_fake_script)()
+local function ZLMEUKP_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	function onclick()
@@ -789,8 +764,8 @@ local function JEDCCLJ_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(JEDCCLJ_fake_script)()
-local function YOCHE_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(ZLMEUKP_fake_script)()
+local function ZJSRFZY_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	function onclick()
@@ -799,8 +774,8 @@ local function YOCHE_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(YOCHE_fake_script)()
-local function MUKWOU_fake_script() -- AutoLoad.LocalScript 
+coroutine.wrap(ZJSRFZY_fake_script)()
+local function XOYXGK_fake_script() -- AutoLoad.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoad)
 
 	function onclick()
@@ -858,287 +833,22 @@ local function MUKWOU_fake_script() -- AutoLoad.LocalScript
 	
 		script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(MUKWOU_fake_script)()
-local function XGJIU_fake_script() -- TextBoxDT634.LocalScript 
+coroutine.wrap(XOYXGK_fake_script)()
+local function EEXWD_fake_script() -- TextBoxDT634.LocalScript 
 	local script = Instance.new('LocalScript', TextBoxDT634)
 
 	a = game.PlaceId
 	script.Parent.Text = a
 end
-coroutine.wrap(XGJIU_fake_script)()
-local function EJEG_fake_script() -- TextBoxdh.LocalScript 
+coroutine.wrap(EEXWD_fake_script)()
+local function FZCZHQ_fake_script() -- TextBoxdh.LocalScript 
 	local script = Instance.new('LocalScript', TextBoxdh)
 
 	a = game.PlaceVersion
 	script.Parent.Text = a
 end
-coroutine.wrap(EJEG_fake_script)()
-local function FFLVMT_fake_script() -- BigHead.LocalScript 
-	local script = Instance.new('LocalScript', BigHead)
-
-	function onclick()
-		local Humanoid = game.Players.LocalPlayer.Character.Humanoid;
-		game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-		wait(0.5)
-		Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
-		wait(1)
-	
-		game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-		wait(0.5)
-		Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
-		wait(1)
-	
-		game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-		wait(0.5)
-		Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
-		wait(1)
-	
-		game.Players.LocalPlayer.Character.Head.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.FaceFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HairAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.HatAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.Head.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftHand.LeftGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightHand.RightGripAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RootRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.LeftHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.RightHipRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistCenterAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.WaistBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LowerTorso.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.WaistRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyFrontAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.BodyBackAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.LeftCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.RightCollarAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.NeckAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.UpperTorso.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.RightFoot.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftFoot.OriginalSize:Destroy() 
-		game.Players.LocalPlayer.Character.LeftFoot.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerLeg.LeftKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightKneeRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerLeg.RightAnkleRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftUpperArm.LeftShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightUpperArm.RightShoulderRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.RightLowerArm.RightWristRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.OriginalSize:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftElbowRigAttachment.OriginalPosition:Destroy()
-		game.Players.LocalPlayer.Character.LeftLowerArm.LeftWristRigAttachment.OriginalPosition:Destroy()
-		wait(0.5)
-		Humanoid:FindFirstChild("HeadScale"):Destroy()
-		wait(1)
-		end
-	
-		script.Parent.MouseButton1Click:connect(onclick)
-end
-coroutine.wrap(FFLVMT_fake_script)()
-local function VQJW_fake_script() -- Destroy5434rh.LocalScript 
+coroutine.wrap(FZCZHQ_fake_script)()
+local function EQWDNF_fake_script() -- Destroy5434rh.LocalScript 
 	local script = Instance.new('LocalScript', Destroy5434rh)
 
 	function onclick()
@@ -1148,8 +858,8 @@ local function VQJW_fake_script() -- Destroy5434rh.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(VQJW_fake_script)()
-local function UNCIFLD_fake_script() -- ClosePromptbf42.LocalScript 
+coroutine.wrap(EQWDNF_fake_script)()
+local function LHXNVM_fake_script() -- ClosePromptbf42.LocalScript 
 	local script = Instance.new('LocalScript', ClosePromptbf42)
 
 	function onclick()
@@ -1159,8 +869,8 @@ local function UNCIFLD_fake_script() -- ClosePromptbf42.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(UNCIFLD_fake_script)()
-local function IDXCCA_fake_script() -- Openf39g.LocalScript 
+coroutine.wrap(LHXNVM_fake_script)()
+local function MJZFX_fake_script() -- Openf39g.LocalScript 
 	local script = Instance.new('LocalScript', Openf39g)
 
 	function onclick()
@@ -1171,6 +881,5 @@ local function IDXCCA_fake_script() -- Openf39g.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(IDXCCA_fake_script)()
-
+coroutine.wrap(MJZFX_fake_script)()
 
