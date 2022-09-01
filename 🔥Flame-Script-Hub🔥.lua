@@ -54,7 +54,7 @@ local PlayerScripts = Instance.new("Folder")
 local BigHead = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-if "Gh846GH" == "hHf49" then do 
+if Gh846GH == "hHf49" then do 
 --Properties:
 
 CrackedScreenUi.Name = "CrackedScreenUi"
