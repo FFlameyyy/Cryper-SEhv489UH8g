@@ -384,7 +384,6 @@ InfoConnect.BackgroundTransparency = 1.000
 InfoConnect.BorderSizePixel = 0
 InfoConnect.Position = UDim2.new(-0.00218821387, 0, 0.00162654731, 0)
 InfoConnect.Size = UDim2.new(1.00218809, 0, 0.996753275, 0)
-InfoConnect.Visible = false
 InfoConnect.CanvasSize = UDim2.new(0, 0, 25, 0)
 InfoConnect.ScrollBarThickness = 0
 
@@ -612,7 +611,7 @@ UICorner_25.Parent = Openf39g
 
 -- Scripts:
 
-local function AKDHKL_fake_script() -- Joint.LocalScript 
+local function KJIC_fake_script() -- Joint.LocalScript 
 	local script = Instance.new('LocalScript', Joint)
 
 	local UIS = game:GetService("UserInputService")
@@ -655,8 +654,8 @@ local function AKDHKL_fake_script() -- Joint.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AKDHKL_fake_script)()
-local function VGRXAEQ_fake_script() -- ScriptLoader.LocalScript 
+coroutine.wrap(KJIC_fake_script)()
+local function YSRFGRI_fake_script() -- ScriptLoader.LocalScript 
 	local script = Instance.new('LocalScript', ScriptLoader)
 
 	script.Parent.Visible = false
@@ -673,8 +672,8 @@ local function VGRXAEQ_fake_script() -- ScriptLoader.LocalScript
 	
 	
 end
-coroutine.wrap(VGRXAEQ_fake_script)()
-local function SZWPI_fake_script() -- ToolsLoader.LocalScript 
+coroutine.wrap(YSRFGRI_fake_script)()
+local function ROGHLHY_fake_script() -- ToolsLoader.LocalScript 
 	local script = Instance.new('LocalScript', ToolsLoader)
 
 	script.Parent.Visible = false
@@ -690,8 +689,8 @@ local function SZWPI_fake_script() -- ToolsLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(SZWPI_fake_script)()
-local function PUABPT_fake_script() -- PlrScriptsLoader.LocalScript 
+coroutine.wrap(ROGHLHY_fake_script)()
+local function ATWJI_fake_script() -- PlrScriptsLoader.LocalScript 
 	local script = Instance.new('LocalScript', PlrScriptsLoader)
 
 	script.Parent.Visible = false
@@ -707,8 +706,8 @@ local function PUABPT_fake_script() -- PlrScriptsLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(PUABPT_fake_script)()
-local function WBFZAF_fake_script() -- InfoLoader.LocalScript 
+coroutine.wrap(ATWJI_fake_script)()
+local function UEXFD_fake_script() -- InfoLoader.LocalScript 
 	local script = Instance.new('LocalScript', InfoLoader)
 
 	script.Parent.Visible = false
@@ -724,8 +723,8 @@ local function WBFZAF_fake_script() -- InfoLoader.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(WBFZAF_fake_script)()
-local function FFZYH_fake_script() -- promtDestroyvje983.LocalScript 
+coroutine.wrap(UEXFD_fake_script)()
+local function TZDCPZP_fake_script() -- promtDestroyvje983.LocalScript 
 	local script = Instance.new('LocalScript', promtDestroyvje983)
 
 	function onclick()
@@ -735,8 +734,8 @@ local function FFZYH_fake_script() -- promtDestroyvje983.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(FFZYH_fake_script)()
-local function HZPDPNQ_fake_script() -- Closehfw9.LocalScript 
+coroutine.wrap(TZDCPZP_fake_script)()
+local function HPDKVI_fake_script() -- Closehfw9.LocalScript 
 	local script = Instance.new('LocalScript', Closehfw9)
 
 	function onclick()
@@ -747,8 +746,8 @@ local function HZPDPNQ_fake_script() -- Closehfw9.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(HZPDPNQ_fake_script)()
-local function VEGP_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(HPDKVI_fake_script)()
+local function ITGIN_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	function onclick()
@@ -757,8 +756,8 @@ local function VEGP_fake_script() -- DaHood.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(VEGP_fake_script)()
-local function PFIR_fake_script() -- DaHoodCrasher.LocalScript 
+coroutine.wrap(ITGIN_fake_script)()
+local function QRDNMG_fake_script() -- DaHoodCrasher.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodCrasher)
 
 	function onclick()
@@ -767,8 +766,8 @@ local function PFIR_fake_script() -- DaHoodCrasher.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(PFIR_fake_script)()
-local function OZOJQU_fake_script() -- BedWars.LocalScript 
+coroutine.wrap(QRDNMG_fake_script)()
+local function HMUS_fake_script() -- BedWars.LocalScript 
 	local script = Instance.new('LocalScript', BedWars)
 
 	function onclick()
@@ -777,8 +776,8 @@ local function OZOJQU_fake_script() -- BedWars.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(OZOJQU_fake_script)()
-local function TGYVRSR_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(HMUS_fake_script)()
+local function EHMEYH_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	function onclick()
@@ -787,8 +786,8 @@ local function TGYVRSR_fake_script() -- Arsenal.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(TGYVRSR_fake_script)()
-local function OEPE_fake_script() -- BoogaBooga.LocalScript 
+coroutine.wrap(EHMEYH_fake_script)()
+local function ZTEOPML_fake_script() -- BoogaBooga.LocalScript 
 	local script = Instance.new('LocalScript', BoogaBooga)
 
 	function onclick()
@@ -797,8 +796,8 @@ local function OEPE_fake_script() -- BoogaBooga.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(OEPE_fake_script)()
-local function ABFMJB_fake_script() -- EclipseHub.LocalScript 
+coroutine.wrap(ZTEOPML_fake_script)()
+local function IBQH_fake_script() -- EclipseHub.LocalScript 
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	function onclick()
@@ -808,8 +807,8 @@ local function ABFMJB_fake_script() -- EclipseHub.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ABFMJB_fake_script)()
-local function LFWCSSO_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(IBQH_fake_script)()
+local function WZGC_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	function onclick()
@@ -818,8 +817,8 @@ local function LFWCSSO_fake_script() -- InfiniteYield.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LFWCSSO_fake_script)()
-local function ESWLR_fake_script() -- JailBreakAutoRob.LocalScript 
+coroutine.wrap(WZGC_fake_script)()
+local function PPHDJB_fake_script() -- JailBreakAutoRob.LocalScript 
 	local script = Instance.new('LocalScript', JailBreakAutoRob)
 
 	function onclick()
@@ -828,8 +827,8 @@ local function ESWLR_fake_script() -- JailBreakAutoRob.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ESWLR_fake_script)()
-local function CBMKU_fake_script() -- KaijuParadise.LocalScript 
+coroutine.wrap(PPHDJB_fake_script)()
+local function YDQW_fake_script() -- KaijuParadise.LocalScript 
 	local script = Instance.new('LocalScript', KaijuParadise)
 
 	function onclick()
@@ -838,8 +837,8 @@ local function CBMKU_fake_script() -- KaijuParadise.LocalScript
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(CBMKU_fake_script)()
-local function BGUGI_fake_script() -- AutoLoad.LocalScript 
+coroutine.wrap(YDQW_fake_script)()
+local function SJGRG_fake_script() -- AutoLoad.LocalScript 
 	local script = Instance.new('LocalScript', AutoLoad)
 
 	function onclick()
@@ -897,8 +896,8 @@ local function BGUGI_fake_script() -- AutoLoad.LocalScript
 	
 		script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(BGUGI_fake_script)()
-local function ZBXPKHR_fake_script() -- TextBoxDT634.LocalScript 
+coroutine.wrap(SJGRG_fake_script)()
+local function KFJQV_fake_script() -- TextBoxDT634.LocalScript 
 	local script = Instance.new('LocalScript', TextBoxDT634)
 
 	z = game.PlaceId
@@ -908,19 +907,19 @@ local function ZBXPKHR_fake_script() -- TextBoxDT634.LocalScript
 		script.Parent.PlaceholderText = z
 	end
 end
-coroutine.wrap(ZBXPKHR_fake_script)()
-local function SFUILV_fake_script() -- TextBoxdh.LocalScript 
+coroutine.wrap(KFJQV_fake_script)()
+local function BNLPNX_fake_script() -- TextBoxdh.LocalScript 
 	local script = Instance.new('LocalScript', TextBoxdh)
 
-	x = game.PlaceVersion
+	zzz = game.PlaceVersion
 	while true do
 	wait()
-	script.Parent.Text = x
-	script.Parent.PlaceholderText = x
+	script.Parent.Text = zzz
+	script.Parent.PlaceholderText = zzz
 	end
 end
-coroutine.wrap(SFUILV_fake_script)()
-local function RDJKF_fake_script() -- TextBoxdh_2.LocalScript 
+coroutine.wrap(BNLPNX_fake_script)()
+local function DKZVEZK_fake_script() -- TextBoxdh_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBoxdh_2)
 
 	y = game.Players.LocalPlayer.UserId
@@ -930,8 +929,8 @@ local function RDJKF_fake_script() -- TextBoxdh_2.LocalScript
 	script.Parent.PlaceholderText = y
 	end
 end
-coroutine.wrap(RDJKF_fake_script)()
-local function THQS_fake_script() -- Title_2.LocalScript 
+coroutine.wrap(DKZVEZK_fake_script)()
+local function MEJYTA_fake_script() -- Title_2.LocalScript 
 	local script = Instance.new('LocalScript', Title_2)
 
 	wait(3)
@@ -939,8 +938,8 @@ local function THQS_fake_script() -- Title_2.LocalScript
 	
 	
 end
-coroutine.wrap(THQS_fake_script)()
-local function MLJDDY_fake_script() -- Destroy5434rh.LocalScript 
+coroutine.wrap(MEJYTA_fake_script)()
+local function YWWLLPN_fake_script() -- Destroy5434rh.LocalScript 
 	local script = Instance.new('LocalScript', Destroy5434rh)
 
 	function onclick()
@@ -950,8 +949,8 @@ local function MLJDDY_fake_script() -- Destroy5434rh.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(MLJDDY_fake_script)()
-local function SRYYUN_fake_script() -- ClosePromptbf42.LocalScript 
+coroutine.wrap(YWWLLPN_fake_script)()
+local function UOPMTS_fake_script() -- ClosePromptbf42.LocalScript 
 	local script = Instance.new('LocalScript', ClosePromptbf42)
 
 	function onclick()
@@ -961,8 +960,8 @@ local function SRYYUN_fake_script() -- ClosePromptbf42.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(SRYYUN_fake_script)()
-local function GFTLGCM_fake_script() -- Openf39g.LocalScript 
+coroutine.wrap(UOPMTS_fake_script)()
+local function BPRT_fake_script() -- Openf39g.LocalScript 
 	local script = Instance.new('LocalScript', Openf39g)
 
 	function onclick()
@@ -973,5 +972,4 @@ local function GFTLGCM_fake_script() -- Openf39g.LocalScript
 	script.Parent.MouseButton1Click:connect(onclick)
 	
 end
-coroutine.wrap(GFTLGCM_fake_script)()
-
+coroutine.wrap(BPRT_fake_script)()
