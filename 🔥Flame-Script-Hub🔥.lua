@@ -738,8 +738,9 @@ local function XQEFFMM_fake_script() -- EclipseHub.LocalScript
 	local script = Instance.new('LocalScript', EclipseHub)
 
 	function onclick()
-		getgenv().mainKey = "nil"
-		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+		getgenv().mainKey = "nil";
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 	end
 	
 	script.Parent.MouseButton1Click:connect(onclick)
